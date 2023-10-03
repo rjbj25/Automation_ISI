@@ -1,0 +1,15 @@
+routes:
+  logging: ./Logs/log
+  venv: /home/controlperdidas/data_management_venv/bin/python3
+
+q10user:
+  user: mmartinez@isi.edu.pa
+  password: 123
+
+google:
+  spids:
+    test: 1AsM_u2VAqkLjs3YhRDnq-Q88nfpv4EJS5X3apUo-bxY
+    
+  scopes:
+    global: ['https://www.googleapis.com/auth/spreadsheets']
+

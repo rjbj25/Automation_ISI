@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "isiedu",
+  "private_key_id": "9a961fc8f3f67018f5f2f8614b692bd4aa70358b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCBgmMTNh6E2h1X\nZQrZjM8XSNAv/6OwFuXlngqPdvfmD/KWvPXsnLyzgjPfGsjt0LHvrNQfTnOrMTMN\nvgcdmHWW5PH3Jl9EvoTIp6hioTCiqxnRMDa/1KvdbHh2xWzCwrENxd4+G59JOd0G\nyCpX6KxA0mlxgHntYIgoYKONhHp0gQIaj77KI+hEX7aVCuVqXTaOj/gPV5kE/L6K\n53yLkmWmkpVGqke4cgXh4Itpn7lmdIdGMlaCFgoEpxz11N55N/acL+mw0GPuXKs+\nvRp0hk8zJOlIRzkdRLh/FCA+tOL+XgJAN5g8Rxm+TdFMGoDeLUxeu5mAsPqNiUrA\nNuJyttVDAgMBAAECggEAK1JU1u/TDKiziPD9TKGMAqNyNKQkerpmI8WWjcADk7tA\n8Eh8US5q9vc2Z8qbbOXTJ7Pd7yz8h0b5Z37p/W3q49No1z5IPwQmAcMHkhqOXNO0\nWqPwpIG9DeADeeN3iry6ojtOqOLviPyooWSiuW5U9IgOCpAp+QxB75PIEgY/OioV\nmzBxEovtvIdQwaqe9CdtzQ4M9cmzWydFMVwIWELeCCnVnEvUUZWNtfw0UZyt/txn\nd0eRS/EHk4pIxTX3E8uOOC67FZgc8XzmKEBgw5DELu03CfogXBE0pX4nSqvZVDhA\nd4RMCmEke5sDwk8WnvE5w7YURpiobBC8QVg+NdBVKQKBgQC2WBMxhx6Mm2l9NhNk\nPWsQOO8Gt1NDqqRxf1y6MmHMEIOaJytrfEbQVCoCIDGv1ZuzRyt6qzZ5RYhA3Tg3\nzlIAOM3pPabzzQ+8l2lyfcU3xxK8tZRnoAXXozLgYwzcyq27QSHJmRmAAxyI8dSm\nFrt1r/cH7xYD2Lh71kuYYsT+aQKBgQC10sCy2hBEchUyAi3Hu9DOH3JiZsOECRFr\nmoTKIkShGC03dYq6qErRFfMXnUY4v47jYRCaTJ0dSNLA/KQ88Tl31J1BkM2Knosl\n9N1u05fMBK35yQysOV0Rat+KjKOOvYLm+B3ROM+9BgiciaxytvU1Q+0naBS2jai+\nrlunyQVYywKBgH0dYc4SEHwaBv/LIvMc0WGILzpEf/VmGP9njJCWEVSb4DDdv4U4\n+L3pggmDXZRw1SzmIIdDA1WiyCL5p6FjCBDu6RqpGu0ePzYADnJoqfHjvo+NaA7S\nVi/n4vjj/edhimN6BVz2l/CmMeYlSOvNnULbQn1HJ6vsAGm4WJZu7wxBAoGAd3d7\nn8iCCcb/wDUISYVRZC3rZVZqPrYKmS4U9A9iEoslIpx7w7tSNWF7sVdoTV8oDqS3\nWPrf/N7dg2o8q8I/5Ulw7iSruNoFSbJDUE99HNMyUL5WMk8apJgZOxq/WMmSWhpK\n1S7D6EovnFMlWNZ39UClcVAE1BHt/yPnGy6M8dMCgYBBXWH6tcJ6/Dk+7AY6gdr+\nWtfzOZpDIZs3QaGbCsok+uhhxMfGwiuhsGHKc9GJEJwCGdKmV7kO+ovKcsRT8Vic\nJGpufgBERy5xarG7slMQR5WzeFL9zUq6tljCFdEIxC+OiPZe78svnqtlua3/MDaE\n5BTeaBPUKoaAOEMBMSbxVA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "isi-ventas@isiedu.iam.gserviceaccount.com",
+  "client_id": "102676636002123627659",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/isi-ventas%40isiedu.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

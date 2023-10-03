@@ -1,0 +1,15 @@
+TXTBOX_USERNAME: '#NombreUsuario'
+TXTBOX_PASSWORD: '#Contrasena'
+BUTTON_SUBMIT: '#submit-btn'
+BUTTON_ADMINISTRATIVOS: '#roles > div > div > div.modal-body > div > div > div > a:nth-child(1)'
+MENU_INSTITUCIONAL: body > nav > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(3) > li:nth-child(1) > a
+MENU_COMERCIAL_CRM: body > nav > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(3) > li.dropdown.open > ul > li:nth-child(3) > a
+MENU_OPORTUNITIES: body > nav > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(3) > li.dropdown.open > ul > li:nth-child(3) > ul > li:nth-child(1) > a
+BUTTON_REGISTRAR_OPORTUNIDAD: '#filters_form > div > div.col-lg-5.col-md-5 > a.btn.btn-primary.q10button.modal-form.create.pull-right'
+TXTBOX_OPOTUNIDAD_NOMBRE: '#nombre'
+TXTBOX_IDENTIFICACION: '#identificacion'
+TXTBOX_EMAIL: '#correo'
+TXTBOX_CELULAR: '#celular'
+BUTTON_NEXT: '#form0 > div.modal-footer > button.btn.btn-default.btn-siguiente'
+DIRECCION: 
+SELECT_MUNICIPIO: '#divPaso3 > div > div.row.row3 > div:nth-child(1) > div > div > div > input[type=text]'
