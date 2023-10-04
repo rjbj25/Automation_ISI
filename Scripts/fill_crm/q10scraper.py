@@ -14,6 +14,7 @@ def main():
     q10p.login()
     q10p.go_to_oportunities()
     q10p.register_oportunitie()
+    q10p.register_oportunitie_detail()
     
 
 if __name__ == '__main__':
