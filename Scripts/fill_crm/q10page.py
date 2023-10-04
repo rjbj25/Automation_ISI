@@ -72,6 +72,11 @@ class Q10Page(object):
         self.send_text_by_ccs_sel(self.xpaths['TXTBOX_CELULAR'], self.student['Celular'].iloc[0])
         sleep(10)
 
+    def register_oportunitie_detail(self):
+        self.send_text_by_ccs_sel(self.xpaths['TXTBOX_DIRECCION'], self.student['Direccion'].iloc[0])
+        self.send_text_by_ccs_sel(self.xpaths['SELECT_MUNICIPIO'], self.student['Municipio'].iloc[0])
+        self.send_text_by_ccs_sel(self.xpaths['SELECT_MUNICIPIO'], self.student['Municipio'].iloc[0])
+
     def send_text_by_ccs_sel(self, element, txt):
         WebDriverWait(self._driver, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
         e = self._driver.find_element(By.CSS_SELECTOR, element)
