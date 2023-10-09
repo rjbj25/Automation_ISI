@@ -35,6 +35,8 @@ class Q10Page(object):
         self._WINDOW_SIZE = "1920,1080"
         self._chrome_options = Options()
         self._chrome_options.add_argument("--window-size=%s" % self._WINDOW_SIZE)
+        # headless
+        self._chrome_options.add_argument("--headless")
         self._driver = webdriver.Chrome(options=self._chrome_options)
         self._driver.maximize_window()
         self._url = "https://site2.q10.com/login?ReturnUrl=%2F&aplentId=5f0cac06-a506-459a-a7b8-364b50574728"
@@ -46,7 +48,7 @@ class Q10Page(object):
         '''
         Este metodo se encarga de hacer el login en la pagina de Q10
         '''
-
+        
         WebDriverWait(self._driver, 3).until(EC.presence_of_element_located((By.CSS_SELECTOR, self.xpaths['TXTBOX_USERNAME'])))
         text_field_username = self._driver.find_element(By.CSS_SELECTOR, self.xpaths['TXTBOX_USERNAME'])
         text_field_password = self._driver.find_element(By.CSS_SELECTOR, self.xpaths['TXTBOX_PASSWORD'])
@@ -60,22 +62,27 @@ class Q10Page(object):
 
         self.click_element_by_ccs_sel(self.xpaths['BUTTON_SUBMIT'])
         self.click_element_by_ccs_sel(self.xpaths['BUTTON_ADMINISTRATIVOS'])
-
+        print('Login exitoso')
         #sleep(38)
 
     def go_to_oportunities(self):
         '''
         Este metodo se encarga de ir a la seccion de oportunidades en el CRM
         '''
-        WebDriverWait(self._driver, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#mensajeMora > div > div > div > div:nth-child(2) > div.col-lg-9.col-md-9.col-sm-9.col-xs-9')))
-        WebDriverWait(self._driver, 40).until(EC.invisibility_of_element_located((By.CSS_SELECTOR, '#mensajeMora > div > div > div > div:nth-child(2) > div.col-lg-9.col-md-9.col-sm-9.col-xs-9')))
+        try:
+            WebDriverWait(self._driver, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#mensajeMora > div > div > div > div:nth-child(2) > div.col-lg-9.col-md-9.col-sm-9.col-xs-9')))
+            WebDriverWait(self._driver, 40).until(EC.invisibility_of_element_located((By.CSS_SELECTOR, '#mensajeMora > div > div > div > div:nth-child(2) > div.col-lg-9.col-md-9.col-sm-9.col-xs-9')))
+        except Exception as e:
+            print(e)
+            logger.info(e)
+            pass
         self.click_element_by_ccs_sel(self.xpaths['MENU_INSTITUCIONAL'])
         WebDriverWait(self._driver, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, self.xpaths['MENU_COMERCIAL_CRM'])))
         menu_comercial_crm = self._driver.find_element(By.CSS_SELECTOR, self.xpaths['MENU_COMERCIAL_CRM'])
         actions = ActionChains(self._driver)
         actions.move_to_element(menu_comercial_crm).perform()
         self.click_element_by_ccs_sel(self.xpaths['MENU_OPORTUNITIES'])
-
+        print('Seccion de oportunidades abierta')
         sleep(2)
 
     def register_oportunitie(self):
@@ -88,6 +95,7 @@ class Q10Page(object):
         self.send_text_by_ccs_sel(self.xpaths['TXTBOX_IDENTIFICACION'], self.student['Cedula'].iloc[0])
         self.send_text_by_ccs_sel(self.xpaths['TXTBOX_EMAIL'], self.student['Correo'].iloc[0])
         self.send_text_by_ccs_sel(self.xpaths['TXTBOX_CELULAR'], self.student['Celular'].iloc[0])
+        print('Oportunidad registrada')
 
     def register_oportunitie_detail(self):
         '''
@@ -188,7 +196,7 @@ class Q10Page(object):
             TÉCNICO SUPERIOR MECÁNICA DE EQUIPO PESADO
             TÉCNICO SUPERIOR TOPOGRAFÍA
             TRIPULANTE DE CABINA DE VUELO COMERCIAL
-        '''
+        
         self.click_element_by_ccs_sel(self.xpaths['SELECT_PROGRAMA'])
         if self.student['Programa'].iloc[0].iloc[0] == 'ASISTENTE DE INGENIERIA CIVIL Y DISEÑO DE OBRAS CIVILES':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_ASISTENTE_DE_INGENIERIA_CIVIL_Y_DISENO_DE_OBRAS_CIVILES'])
@@ -285,57 +293,6 @@ class Q10Page(object):
         elif self.student['Programa'].iloc[0].iloc[0] == 'TRIPULANTE DE CABINA DE VUELO COMERCIAL':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TRIPULANTE_DE_CABINA_DE_VUELO_COMERCIAL'])
         '''
-        El listado de opciones es:
-        OPTION_ASISTENTE_DE_INGENIERIA_CIVIL_Y_DISENO_DE_OBRAS_CIVILES
-        OPTION_CERTIFICACIONES_ESPECIALIZADAS_GRUPO_MAKRO
-        OPTION_CURSO_DE_BUCEO_COMERCIAL
-        OPTION_CURSO_DE_FRANCES_JOBS_CANADA
-        OPTION_CURSO_DE_INGLES_ISI
-        OPTION_CURSO_DE_INGLES_JOBS_CANADA
-        OPTION_CURSOS_ISI
-        OPTION_CURSOS_NIVELATORIOS_ISI
-        OPTION_CURSOS_SOBRE_BUCEO_ISI
-        OPTION_DIPLOMADO_EN_MAQUINARIA_PESADA_CON_ENFASIS_EN_MANTENIMIENTO_Y_PRODUCTIVIDAD
-        OPTION_DIPLOMADO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EQUIPO_PESADO_ZEMER
-        OPTION_FLYCAMDRONE_CURSO_BASICO_DE_DRONES
-        OPTION_FLYCAMDRONE_CURSO_PROFESIONAL_DE_DRONES
-        OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORA_HIDRAULICA
-        OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORA_SOBRE_ORUGAS
-        OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_TRACTOR_SOBRE_ORUGAS
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_RIGIDO
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_VOLQUETE
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORAS_Y_PALAS
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MINICARGADOR
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MOTONIVELADORA
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MOTOTRAILLA
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_PERFORADORAS
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_RETROCARGADOR
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_SCOOP_Y_JUMBO
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CAMION_ARTICULADO
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CAMIONETAS_4X4
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CARGADOR_FRONTAL
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_EXCAVADORA_HIDRAULICA
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_GRUAS
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_MAQUINARIA_AGRICOLA
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_MONTACARGAS
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_TRACTOR_AGRICOLA
-        OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_VIBROCOMPACTADOR_SEGURIDAD_VIAL
-        OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_ARTICULADO_Y_EXCAVADORA_HIDRAULICA
-        OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EQUIPO_PESADO
-        OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EQUIPO_PESADO_GMK_PANAMA
-        OPTION_SOLDADURA_SUBACUATICA
-        OPTION_TECNICO_SUPERIOR_ASISTENTE_DE_INGENIERIA_CIVIL
-        OPTION_TECNICO_SUPERIOR_ASISTENTE_DE_ODONTOLOGIA
-        OPTION_TECNICO_SUPERIOR_DISENO_DE_OBRAS_CIVILES
-        OPTION_TECNICO_SUPERIOR_ELECTRICIDAD_CON_ENFASIS_EN_CENTRALES_HIDROELECTRICAS
-        OPTION_TECNICO_SUPERIOR_EN_MEDIO_AMBIENTE_Y_MANEJO_DE_CUENCAS_HIDROGRAFICAS
-        OPTION_TECNICO_SUPERIOR_LOGISTICA_Y_COMERCIO_INTERNACIONAL
-        OPTION_TECNICO_SUPERIOR_MECANICA_DE_EQUIPO_PESADO
-        OPTION_TECNICO_SUPERIOR_TOPOGRAFIA
-        OPTION_TRIPULANTE_DE_CABINA_DE_VUELO_COMERCIAL
-        
-        '''
-
         sleep(15)
 
     def send_text_by_ccs_sel(self, element, txt):
