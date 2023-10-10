@@ -114,9 +114,9 @@ class Q10Page(object):
         #Se selecciona como se entero el estudiante
         if self.student['Como_Se_Entero'].iloc[0].iloc[0] == 'Facebook Empresarial':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_FB_EMPRESARIAL'])
-        elif self.student['Como_Se_Entero'].iloc[0] == 'Instagram':
+        elif self.student['Como_Se_Entero'].iloc[0].iloc[0] == 'Instagram':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_INSTAGRAM'])
-        elif self.student['Como_Se_Entero'].iloc[0] == 'Pagina Web':
+        elif self.student['Como_Se_Entero'].iloc[0].iloc[0] == 'Pagina Web':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_PAGINA_WEB'])
 
         # Se selecciona el medio de contacto con el estudiante
@@ -300,6 +300,15 @@ class Q10Page(object):
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TRIPULANTE_DE_CABINA_DE_VUELO_COMERCIAL'])
         
         self.logger_print('Detalles de la oportunidad registrados')
+        sleep(1)
+
+
+    def save_oportunitie(self):
+        '''
+        Este metodo se encarga de guardar una oportunidad en el CRM
+        '''
+        self.click_element_by_ccs_sel(self.xpaths['BUTTON_SAVE'])
+        self.logger_print('Oportunidad guardada')
         sleep(2)
 
     def send_text_by_ccs_sel(self, element, txt):
