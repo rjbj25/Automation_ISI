@@ -16,7 +16,7 @@ def main():
         q10p.go_to_oportunities()
         q10p.register_oportunitie()
         q10p.register_oportunitie_detail()
-        #q10p.save_oportunitie()
+        q10p.save_oportunitie()
         q10p._driver.quit()
     except Exception as e:
         logger.error(e)
