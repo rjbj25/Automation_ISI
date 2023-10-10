@@ -32,6 +32,7 @@ OPTION_PRESENTACION: 'body > div.btn-group.bootstrap-select.pull-right.modal-sel
 OPTION_EN_NEGOCIACION: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.open > div > ul > li:nth-child(2) > a > span
 OPTION_CIERRE: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.open > div > ul > li:nth-child(3) > a > span
 TXTBOX_FECHA_TENTATIVA_CIERRE: '#Negocio_neg_fecha_cierre'
+BUTTON_NO_SPACE: body > div.sweet-alert.showSweetAlert.visible > button.confirm
 SELECT_PROGRAMA: '#divPaso3 > div > div.row.row6 > div > div > div > button'
 OPTION_ASISTENTE_DE_INGENIERIA_CIVIL_Y_DISENO_DE_OBRAS_CIVILES: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(2) > a > span
 OPTION_CERTIFICACIONES_ESPECIALIZADAS_GRUPO_MAKRO: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(3) > a > span
@@ -40,44 +41,44 @@ OPTION_CURSO_DE_FRANCES_JOBS_CANADA: body > div.btn-group.bootstrap-select.pull-
 OPTION_CURSO_DE_INGLES_ISI: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(6) > a > span
 OPTION_CURSO_DE_INGLES_JOBS_CANADA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(7) > a > span
 OPTION_CURSOS_ISI: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(8) > a > span
-OPTION_CURSOS_NIVELATORIOS_ISI:
-OPTION_CURSOS_SOBRE_BUCEO_ISI:
-OPTION_DIPLOMADO_EN_MAQUINARIA_PESADA_CON_ENFASIS_EN_MANTENIMIENTO_Y_PRODUCTIVIDAD:
-OPTION_DIPLOMADO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EQUIPO_PESADO_ZEMER:
-OPTION_FLYCAMDRONE_CURSO_BASICO_DE_DRONES:
-OPTION_FLYCAMDRONE_CURSO_PROFESIONAL_DE_DRONES:
-OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORA_HIDRAULICA:
-OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORA_SOBRE_ORUGAS:
-OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_TRACTOR_SOBRE_ORUGAS:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_RIGIDO:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_VOLQUETE:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORAS_Y_PALAS:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MINICARGADOR:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MOTONIVELADORA:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MOTOTRAILLA:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_PERFORADORAS:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_RETROCARGADOR:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_SCOOP_Y_JUMBO:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CAMION_ARTICULADO:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CAMIONETAS_4X4:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CARGADOR_FRONTAL:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_EXCAVADORA_HIDRAULICA:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_GRUAS:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_MAQUINARIA_AGRICOLA:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_MONTACARGAS:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_TRACTOR_AGRICOLA:
-OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_VIBROCOMPACTADOR_SEGURIDAD_VIAL:
-OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_ARTICULADO_Y_EXCAVADORA_HIDRAULICA:
-OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EQUIPO_PESADO:
-OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EQUIPO_PESADO_GMK_PANAMA:
-OPTION_SOLDADURA_SUBACUATICA:
-OPTION_TECNICO_SUPERIOR_ASISTENTE_DE_INGENIERIA_CIVIL:
-OPTION_TECNICO_SUPERIOR_ASISTENTE_DE_ODONTOLOGIA:
-OPTION_TECNICO_SUPERIOR_DISENO_DE_OBRAS_CIVILES:
-OPTION_TECNICO_SUPERIOR_ELECTRICIDAD_CON_ENFASIS_EN_CENTRALES_HIDROELECTRICAS:
-OPTION_TECNICO_SUPERIOR_EN_MEDIO_AMBIENTE_Y_MANEJO_DE_CUENCAS_HIDROGRAFICAS:
-OPTION_TECNICO_SUPERIOR_LOGISTICA_Y_COMERCIO_INTERNACIONAL:
-OPTION_TECNICO_SUPERIOR_MECANICA_DE_EQUIPO_PESADO:
-OPTION_TECNICO_SUPERIOR_TOPOGRAFIA:
-OPTION_TRIPULANTE_DE_CABINA_DE_VUELO_COMERCIAL:
+OPTION_CURSOS_NIVELATORIOS_ISI: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(9) > a > span
+OPTION_CURSOS_SOBRE_BUCEO_ISI: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(10) > a > span
+OPTION_DIPLOMADO_EN_MAQUINARIA_PESADA_CON_ENFASIS_EN_MANTENIMIENTO_Y_PRODUCTIVIDAD: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(9) > a > span
+OPTION_DIPLOMADO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EQUIPO_PESADO_ZEMER: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(12) > a > span
+OPTION_FLYCAMDRONE_CURSO_BASICO_DE_DRONES: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(13) > a > span
+OPTION_FLYCAMDRONE_CURSO_PROFESIONAL_DE_DRONES: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(14) > a > span
+OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORA_HIDRAULICA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(15) > a > span
+OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORA_SOBRE_ORUGAS: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(16) > a > span
+OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_TRACTOR_SOBRE_ORUGAS: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(17) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_RIGIDO: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(18) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_VOLQUETE: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(19) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORAS_Y_PALAS: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(20) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MINICARGADOR: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(21) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MOTONIVELADORA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(22) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MOTOTRAILLA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(23) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_PERFORADORAS: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(24) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_RETROCARGADOR: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(25) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_SCOOP_Y_JUMBO: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(26) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CAMION_ARTICULADO: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(27) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CAMIONETAS_4X4: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(28) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CARGADOR_FRONTAL: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(29) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_EXCAVADORA_HIDRAULICA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(30) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_GRUAS: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(31) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_MAQUINARIA_AGRICOLA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(32) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_MONTACARGAS: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(33) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_TRACTOR_AGRICOLA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(34) > a > span
+OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_VIBROCOMPACTADOR_SEGURIDAD_VIAL: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(35) > a > span
+OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_ARTICULADO_Y_EXCAVADORA_HIDRAULICA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(36) > a > span
+OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EQUIPO_PESADO: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(37) > a > span
+OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EQUIPO_PESADO_GMK_PANAMA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(38) > a > span
+OPTION_SOLDADURA_SUBACUATICA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(39) > a > span
+OPTION_TECNICO_SUPERIOR_ASISTENTE_DE_INGENIERIA_CIVIL: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(40) > a > span
+OPTION_TECNICO_SUPERIOR_ASISTENTE_DE_ODONTOLOGIA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(41) > a > span
+OPTION_TECNICO_SUPERIOR_DISENO_DE_OBRAS_CIVILES: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(42) > a > span
+OPTION_TECNICO_SUPERIOR_ELECTRICIDAD_CON_ENFASIS_EN_CENTRALES_HIDROELECTRICAS: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(43) > a > span
+OPTION_TECNICO_SUPERIOR_EN_MEDIO_AMBIENTE_Y_MANEJO_DE_CUENCAS_HIDROGRAFICAS: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(44) > a > span
+OPTION_TECNICO_SUPERIOR_LOGISTICA_Y_COMERCIO_INTERNACIONAL: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(45) > a > span
+OPTION_TECNICO_SUPERIOR_MECANICA_DE_EQUIPO_PESADO: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(46) > a > span
+OPTION_TECNICO_SUPERIOR_TOPOGRAFIA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(47) > a > span
+OPTION_TRIPULANTE_DE_CABINA_DE_VUELO_COMERCIAL: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(48) > a > span
 BUTTON_GUARDAR: '#submit-btn'

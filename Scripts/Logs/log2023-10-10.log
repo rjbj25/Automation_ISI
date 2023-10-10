@@ -1,0 +1,278 @@
+2023-10-10,08:41:17.880 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-10,08:41:26.962 INFO {q10page} [go_to_oportunities] Message: 
+Stacktrace:
+0   chromedriver                        0x000000010046ed68 chromedriver + 4337000
+1   chromedriver                        0x0000000100466de4 chromedriver + 4304356
+2   chromedriver                        0x0000000100093a5c chromedriver + 293468
+3   chromedriver                        0x00000001000d8d50 chromedriver + 576848
+4   chromedriver                        0x0000000100113908 chromedriver + 817416
+5   chromedriver                        0x00000001000cca5c chromedriver + 526940
+6   chromedriver                        0x00000001000cd908 chromedriver + 530696
+7   chromedriver                        0x0000000100434db4 chromedriver + 4099508
+8   chromedriver                        0x0000000100439270 chromedriver + 4117104
+9   chromedriver                        0x000000010043f4fc chromedriver + 4142332
+10  chromedriver                        0x0000000100439d70 chromedriver + 4119920
+11  chromedriver                        0x0000000100411a44 chromedriver + 3955268
+12  chromedriver                        0x0000000100456a18 chromedriver + 4237848
+13  chromedriver                        0x0000000100456b94 chromedriver + 4238228
+14  chromedriver                        0x0000000100466a5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-10,08:41:31.076 INFO {q10page} [go_to_oportunities] Message: 
+Stacktrace:
+0   chromedriver                        0x000000010046ed68 chromedriver + 4337000
+1   chromedriver                        0x0000000100466de4 chromedriver + 4304356
+2   chromedriver                        0x0000000100093a5c chromedriver + 293468
+3   chromedriver                        0x00000001000d8d50 chromedriver + 576848
+4   chromedriver                        0x0000000100113908 chromedriver + 817416
+5   chromedriver                        0x00000001000cca5c chromedriver + 526940
+6   chromedriver                        0x00000001000cd908 chromedriver + 530696
+7   chromedriver                        0x0000000100434db4 chromedriver + 4099508
+8   chromedriver                        0x0000000100439270 chromedriver + 4117104
+9   chromedriver                        0x000000010043f4fc chromedriver + 4142332
+10  chromedriver                        0x0000000100439d70 chromedriver + 4119920
+11  chromedriver                        0x0000000100411a44 chromedriver + 3955268
+12  chromedriver                        0x0000000100456a18 chromedriver + 4237848
+13  chromedriver                        0x0000000100456b94 chromedriver + 4238228
+14  chromedriver                        0x0000000100466a5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-10,08:49:50.749 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-10,08:50:00.919 INFO {q10page} [go_to_oportunities] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100c76d68 chromedriver + 4337000
+1   chromedriver                        0x0000000100c6ede4 chromedriver + 4304356
+2   chromedriver                        0x000000010089ba5c chromedriver + 293468
+3   chromedriver                        0x00000001008e0d50 chromedriver + 576848
+4   chromedriver                        0x000000010091b908 chromedriver + 817416
+5   chromedriver                        0x00000001008d4a5c chromedriver + 526940
+6   chromedriver                        0x00000001008d5908 chromedriver + 530696
+7   chromedriver                        0x0000000100c3cdb4 chromedriver + 4099508
+8   chromedriver                        0x0000000100c41270 chromedriver + 4117104
+9   chromedriver                        0x0000000100c474fc chromedriver + 4142332
+10  chromedriver                        0x0000000100c41d70 chromedriver + 4119920
+11  chromedriver                        0x0000000100c19a44 chromedriver + 3955268
+12  chromedriver                        0x0000000100c5ea18 chromedriver + 4237848
+13  chromedriver                        0x0000000100c5eb94 chromedriver + 4238228
+14  chromedriver                        0x0000000100c6ea5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-10,08:50:05.013 INFO {q10page} [go_to_oportunities] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100c76d68 chromedriver + 4337000
+1   chromedriver                        0x0000000100c6ede4 chromedriver + 4304356
+2   chromedriver                        0x000000010089ba5c chromedriver + 293468
+3   chromedriver                        0x00000001008e0d50 chromedriver + 576848
+4   chromedriver                        0x000000010091b908 chromedriver + 817416
+5   chromedriver                        0x00000001008d4a5c chromedriver + 526940
+6   chromedriver                        0x00000001008d5908 chromedriver + 530696
+7   chromedriver                        0x0000000100c3cdb4 chromedriver + 4099508
+8   chromedriver                        0x0000000100c41270 chromedriver + 4117104
+9   chromedriver                        0x0000000100c474fc chromedriver + 4142332
+10  chromedriver                        0x0000000100c41d70 chromedriver + 4119920
+11  chromedriver                        0x0000000100c19a44 chromedriver + 3955268
+12  chromedriver                        0x0000000100c5ea18 chromedriver + 4237848
+13  chromedriver                        0x0000000100c5eb94 chromedriver + 4238228
+14  chromedriver                        0x0000000100c6ea5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-10,08:53:03.929 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-10,08:53:05.358 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:05.630 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:05.912 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:06.188 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:06.472 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:06.745 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:07.032 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:07.313 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:07.597 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:07.876 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:08.139 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:08.543 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:08.827 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:09.090 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:09.372 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:09.654 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:09.846 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:10.060 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:10.262 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:10.480 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:10.754 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:10.972 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:11.194 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:11.416 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:11.613 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:11.828 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:12.037 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:12.248 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:12.457 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:12.661 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:12.874 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:13.070 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:13.279 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:13.473 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:13.933 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:14.166 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:14.459 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:14.673 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:15.171 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:15.824 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:16.349 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:16.872 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:17.398 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:17.746 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:17.950 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:18.255 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:18.468 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:18.778 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:19.023 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:19.301 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:19.531 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:19.733 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:20.019 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:20.230 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:20.448 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:20.876 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:21.074 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:21.400 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:21.594 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:21.925 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:22.127 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:22.447 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:22.660 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:22.880 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:23.196 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:23.392 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:23.603 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:24.022 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:24.247 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:24.547 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:24.750 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:25.071 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:25.279 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:25.594 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:25.881 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:26.117 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:26.314 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:26.644 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:26.850 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:27.168 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:27.407 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:27.691 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:53:27.917 ERROR {common} [get_data_from_sheets] 20 columns passed, passed data had 18 columns
+2023-10-10,08:54:10.229 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-10,08:54:22.281 INFO {q10page} [go_to_oportunities] Message: 
+Stacktrace:
+0   chromedriver                        0x00000001029dad68 chromedriver + 4337000
+1   chromedriver                        0x00000001029d2de4 chromedriver + 4304356
+2   chromedriver                        0x00000001025ffa5c chromedriver + 293468
+3   chromedriver                        0x0000000102644d50 chromedriver + 576848
+4   chromedriver                        0x000000010267f908 chromedriver + 817416
+5   chromedriver                        0x0000000102638a5c chromedriver + 526940
+6   chromedriver                        0x0000000102639908 chromedriver + 530696
+7   chromedriver                        0x00000001029a0db4 chromedriver + 4099508
+8   chromedriver                        0x00000001029a5270 chromedriver + 4117104
+9   chromedriver                        0x00000001029ab4fc chromedriver + 4142332
+10  chromedriver                        0x00000001029a5d70 chromedriver + 4119920
+11  chromedriver                        0x000000010297da44 chromedriver + 3955268
+12  chromedriver                        0x00000001029c2a18 chromedriver + 4237848
+13  chromedriver                        0x00000001029c2b94 chromedriver + 4238228
+14  chromedriver                        0x00000001029d2a5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-10,08:54:26.374 INFO {q10page} [go_to_oportunities] Message: 
+Stacktrace:
+0   chromedriver                        0x00000001029dad68 chromedriver + 4337000
+1   chromedriver                        0x00000001029d2de4 chromedriver + 4304356
+2   chromedriver                        0x00000001025ffa5c chromedriver + 293468
+3   chromedriver                        0x0000000102644d50 chromedriver + 576848
+4   chromedriver                        0x000000010267f908 chromedriver + 817416
+5   chromedriver                        0x0000000102638a5c chromedriver + 526940
+6   chromedriver                        0x0000000102639908 chromedriver + 530696
+7   chromedriver                        0x00000001029a0db4 chromedriver + 4099508
+8   chromedriver                        0x00000001029a5270 chromedriver + 4117104
+9   chromedriver                        0x00000001029ab4fc chromedriver + 4142332
+10  chromedriver                        0x00000001029a5d70 chromedriver + 4119920
+11  chromedriver                        0x000000010297da44 chromedriver + 3955268
+12  chromedriver                        0x00000001029c2a18 chromedriver + 4237848
+13  chromedriver                        0x00000001029c2b94 chromedriver + 4238228
+14  chromedriver                        0x00000001029d2a5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-10,08:55:07.062 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-10,08:56:20.471 INFO {q10page} [go_to_oportunities] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105026d68 chromedriver + 4337000
+1   chromedriver                        0x000000010501ede4 chromedriver + 4304356
+2   chromedriver                        0x0000000104c4ba5c chromedriver + 293468
+3   chromedriver                        0x0000000104c90d50 chromedriver + 576848
+4   chromedriver                        0x0000000104ccb908 chromedriver + 817416
+5   chromedriver                        0x0000000104c84a5c chromedriver + 526940
+6   chromedriver                        0x0000000104c85908 chromedriver + 530696
+7   chromedriver                        0x0000000104fecdb4 chromedriver + 4099508
+8   chromedriver                        0x0000000104ff1270 chromedriver + 4117104
+9   chromedriver                        0x0000000104ff74fc chromedriver + 4142332
+10  chromedriver                        0x0000000104ff1d70 chromedriver + 4119920
+11  chromedriver                        0x0000000104fc9a44 chromedriver + 3955268
+12  chromedriver                        0x000000010500ea18 chromedriver + 4237848
+13  chromedriver                        0x000000010500eb94 chromedriver + 4238228
+14  chromedriver                        0x000000010501ea5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-10,08:56:24.573 INFO {q10page} [go_to_oportunities] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105026d68 chromedriver + 4337000
+1   chromedriver                        0x000000010501ede4 chromedriver + 4304356
+2   chromedriver                        0x0000000104c4ba5c chromedriver + 293468
+3   chromedriver                        0x0000000104c90d50 chromedriver + 576848
+4   chromedriver                        0x0000000104ccb908 chromedriver + 817416
+5   chromedriver                        0x0000000104c84a5c chromedriver + 526940
+6   chromedriver                        0x0000000104c85908 chromedriver + 530696
+7   chromedriver                        0x0000000104fecdb4 chromedriver + 4099508
+8   chromedriver                        0x0000000104ff1270 chromedriver + 4117104
+9   chromedriver                        0x0000000104ff74fc chromedriver + 4142332
+10  chromedriver                        0x0000000104ff1d70 chromedriver + 4119920
+11  chromedriver                        0x0000000104fc9a44 chromedriver + 3955268
+12  chromedriver                        0x000000010500ea18 chromedriver + 4237848
+13  chromedriver                        0x000000010500eb94 chromedriver + 4238228
+14  chromedriver                        0x000000010501ea5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-10,09:02:03.561 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-10,09:02:09.585 INFO {q10page} [logger_print] Login exitoso
+2023-10-10,09:02:14.757 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-10,09:02:18.854 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-10,09:02:20.316 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-10,09:02:27.935 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-10,09:04:47.680 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-10,09:04:52.739 INFO {q10page} [logger_print] Login exitoso
+2023-10-10,09:04:57.303 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-10,09:05:01.389 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-10,09:05:03.067 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-10,09:05:08.051 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-10,09:30:49.517 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-10,09:30:54.974 INFO {q10page} [logger_print] Login exitoso
+2023-10-10,09:30:59.031 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-10,09:31:03.121 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-10,09:31:04.937 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-10,09:31:10.411 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-10,09:31:24.091 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-10,09:31:28.546 INFO {q10page} [logger_print] Login exitoso
+2023-10-10,09:31:33.339 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-10,09:31:37.434 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-10,09:31:38.937 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-10,09:31:43.912 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-10,09:31:53.722 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-10,09:31:58.224 INFO {q10page} [logger_print] Login exitoso
+2023-10-10,09:32:01.499 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-10,09:32:05.641 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-10,09:32:06.899 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-10,09:32:11.921 INFO {q10page} [logger_print] Detalles de la oportunidad registrados

@@ -9,6 +9,7 @@ q10user:
 google:
   spids:
     test: 1AsM_u2VAqkLjs3YhRDnq-Q88nfpv4EJS5X3apUo-bxY
+    production: 1AsM_u2VAqkLjs3YhRDnq-Q88nfpv4EJS5X3apUo-bxY
     
   scopes:
     global: ['https://www.googleapis.com/auth/spreadsheets']

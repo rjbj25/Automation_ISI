@@ -62,7 +62,7 @@ class Q10Page(object):
 
         self.click_element_by_ccs_sel(self.xpaths['BUTTON_SUBMIT'])
         self.click_element_by_ccs_sel(self.xpaths['BUTTON_ADMINISTRATIVOS'])
-        print('Login exitoso')
+        self.logger_print('Login exitoso')
         #sleep(38)
 
     def go_to_oportunities(self):
@@ -73,16 +73,22 @@ class Q10Page(object):
             WebDriverWait(self._driver, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#mensajeMora > div > div > div > div:nth-child(2) > div.col-lg-9.col-md-9.col-sm-9.col-xs-9')))
             WebDriverWait(self._driver, 40).until(EC.invisibility_of_element_located((By.CSS_SELECTOR, '#mensajeMora > div > div > div > div:nth-child(2) > div.col-lg-9.col-md-9.col-sm-9.col-xs-9')))
         except Exception as e:
-            print(e)
-            logger.info(e)
+            logger.info('No se encontró mensaje de mora en pago')
             pass
+        
+        try:
+            self.click_element_by_ccs_sel(self.xpaths['BUTTON_NO_SPACE'])    
+        except Exception as e:
+            logger.info('No se encontró mensaje de espacio insuficiente')
+            pass
+
         self.click_element_by_ccs_sel(self.xpaths['MENU_INSTITUCIONAL'])
         WebDriverWait(self._driver, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, self.xpaths['MENU_COMERCIAL_CRM'])))
         menu_comercial_crm = self._driver.find_element(By.CSS_SELECTOR, self.xpaths['MENU_COMERCIAL_CRM'])
         actions = ActionChains(self._driver)
         actions.move_to_element(menu_comercial_crm).perform()
         self.click_element_by_ccs_sel(self.xpaths['MENU_OPORTUNITIES'])
-        print('Seccion de oportunidades abierta')
+        self.logger_print('Seccion de oportunidades abierta')
         sleep(2)
 
     def register_oportunitie(self):
@@ -95,7 +101,7 @@ class Q10Page(object):
         self.send_text_by_ccs_sel(self.xpaths['TXTBOX_IDENTIFICACION'], self.student['Cedula'].iloc[0])
         self.send_text_by_ccs_sel(self.xpaths['TXTBOX_EMAIL'], self.student['Correo'].iloc[0])
         self.send_text_by_ccs_sel(self.xpaths['TXTBOX_CELULAR'], self.student['Celular'].iloc[0])
-        print('Oportunidad registrada')
+        print('Datos Generales de Oportunidad Registrados')
 
     def register_oportunitie_detail(self):
         '''
@@ -196,7 +202,7 @@ class Q10Page(object):
             TÉCNICO SUPERIOR MECÁNICA DE EQUIPO PESADO
             TÉCNICO SUPERIOR TOPOGRAFÍA
             TRIPULANTE DE CABINA DE VUELO COMERCIAL
-        
+        '''
         self.click_element_by_ccs_sel(self.xpaths['SELECT_PROGRAMA'])
         if self.student['Programa'].iloc[0].iloc[0] == 'ASISTENTE DE INGENIERIA CIVIL Y DISEÑO DE OBRAS CIVILES':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_ASISTENTE_DE_INGENIERIA_CIVIL_Y_DISENO_DE_OBRAS_CIVILES'])
@@ -292,8 +298,9 @@ class Q10Page(object):
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TECNICO_SUPERIOR_TOPOGRAFIA'])
         elif self.student['Programa'].iloc[0].iloc[0] == 'TRIPULANTE DE CABINA DE VUELO COMERCIAL':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TRIPULANTE_DE_CABINA_DE_VUELO_COMERCIAL'])
-        '''
-        sleep(15)
+        
+        self.logger_print('Detalles de la oportunidad registrados')
+        sleep(2)
 
     def send_text_by_ccs_sel(self, element, txt):
         WebDriverWait(self._driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
@@ -301,7 +308,7 @@ class Q10Page(object):
         e.send_keys(txt)
 
     def click_element_by_ccs_sel(self, element):
-        WebDriverWait(self._driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
+        WebDriverWait(self._driver, 4).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
         e = self._driver.find_element(By.CSS_SELECTOR, element)
         e.click()
 
@@ -315,3 +322,7 @@ class Q10Page(object):
         e = self._driver.find_element(By.CSS_SELECTOR, element)
         e.send_keys(option)
         e.send_keys(Keys.ENTER)
+
+    def logger_print(self, msg):
+        logger.info(msg)
+        print(msg)

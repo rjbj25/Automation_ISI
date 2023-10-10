@@ -15,6 +15,7 @@ def main():
     q10p.go_to_oportunities()
     q10p.register_oportunitie()
     q10p.register_oportunitie_detail()
+    q10p._driver.quit()
     
 
 if __name__ == '__main__':
