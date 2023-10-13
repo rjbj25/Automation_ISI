@@ -1,0 +1,10 @@
+2023-10-12,08:40:46.763 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-12,08:40:52.629 INFO {q10page} [logger_print] Login exitoso
+2023-10-12,08:40:56.342 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-12,08:40:59.251 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-12,08:41:05.620 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-12,10:58:43.069 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-12,10:58:49.387 INFO {q10page} [logger_print] Login exitoso
+2023-10-12,10:58:53.075 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-12,10:58:55.335 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-12,10:59:01.929 INFO {q10page} [logger_print] Detalles de la oportunidad registrados

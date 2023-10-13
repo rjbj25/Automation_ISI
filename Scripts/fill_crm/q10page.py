@@ -259,7 +259,7 @@ class Q10Page(object):
         '''
         Este metodo se encarga de guardar una oportunidad en el CRM
         '''
-        self.click_element_by_ccs_sel(self.xpaths['BUTTON_SAVE'])
+        self.click_element_by_ccs_sel(self.xpaths['BUTTON_GUARDAR'])
         self.logger_print('Oportunidad guardada')
         sleep(2)
 
