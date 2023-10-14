@@ -61,7 +61,12 @@ class Q10Page(object):
         text_field_password.send_keys(password)
 
         self.click_element_by_ccs_sel(self.xpaths['BUTTON_SUBMIT'])
-        self.click_element_by_ccs_sel(self.xpaths['BUTTON_ADMINISTRATIVOS'])
+
+        try:
+            self.click_element_by_ccs_sel(self.xpaths['BUTTON_ADMINISTRATIVOS'])
+        except Exception as e:
+            logger.info('No se encontró mensaje de administrativos')
+            pass
         self.logger_print('Login exitoso')
         #sleep(38)
 
