@@ -21,10 +21,10 @@ def get_data_from_sheet():
     service = build('sheets', 'v4', credentials=creds)
     sheet = service.spreadsheets()
     lstrw = sheet.values().get(spreadsheetId=SPID, range=f'Data!A:A').execute()
-    lstcol = 'V'
+    lstcol = 'Y'
     long = common.get_len(lstrw)
     headers=f'Data!A1:{lstcol}1'
-    data=f'Data!A{long}:{lstcol}{long}'
+    data=f'Data!A2:{lstcol}{long}'
 
     dfn = common.get_data_from_sheets(sheet,[headers,data],SPID)
     return dfn

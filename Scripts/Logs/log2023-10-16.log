@@ -1,0 +1,124 @@
+2023-10-16,09:49:10.920 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,09:49:26.532 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,09:49:30.948 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,09:49:34.284 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,09:49:38.351 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,09:49:39.684 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,09:49:41.734 ERROR {q10scraper} [main] 'str' object has no attribute 'iloc'
+2023-10-16,09:50:08.276 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,09:50:10.454 ERROR {q10scraper} [main] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.149)
+Stacktrace:
+0   chromedriver                        0x00000001028bed68 chromedriver + 4337000
+1   chromedriver                        0x00000001028b6de4 chromedriver + 4304356
+2   chromedriver                        0x00000001024e3a5c chromedriver + 293468
+3   chromedriver                        0x00000001024bc6c0 chromedriver + 132800
+4   chromedriver                        0x000000010255004c chromedriver + 737356
+5   chromedriver                        0x0000000102563198 chromedriver + 815512
+6   chromedriver                        0x000000010251ca5c chromedriver + 526940
+7   chromedriver                        0x000000010251d908 chromedriver + 530696
+8   chromedriver                        0x0000000102884db4 chromedriver + 4099508
+9   chromedriver                        0x0000000102889270 chromedriver + 4117104
+10  chromedriver                        0x000000010288f4fc chromedriver + 4142332
+11  chromedriver                        0x0000000102889d70 chromedriver + 4119920
+12  chromedriver                        0x0000000102861a44 chromedriver + 3955268
+13  chromedriver                        0x00000001028a6a18 chromedriver + 4237848
+14  chromedriver                        0x00000001028a6b94 chromedriver + 4238228
+15  chromedriver                        0x00000001028b6a5c chromedriver + 4303452
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,09:50:23.565 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,09:51:48.065 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,09:52:24.490 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,09:53:29.783 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,09:56:54.578 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,09:57:06.475 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,09:57:12.919 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,09:58:37.083 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,10:01:08.887 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,10:01:27.730 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,10:03:00.579 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,10:09:22.080 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,10:12:19.782 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,10:12:27.745 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,10:12:31.780 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,10:12:35.876 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,10:12:37.103 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,10:12:40.961 ERROR {q10scraper} [main] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.149)
+Stacktrace:
+0   chromedriver                        0x000000010483ad68 chromedriver + 4337000
+1   chromedriver                        0x0000000104832de4 chromedriver + 4304356
+2   chromedriver                        0x000000010445fa5c chromedriver + 293468
+3   chromedriver                        0x00000001044386c0 chromedriver + 132800
+4   chromedriver                        0x00000001044cc04c chromedriver + 737356
+5   chromedriver                        0x00000001044df198 chromedriver + 815512
+6   chromedriver                        0x0000000104498a5c chromedriver + 526940
+7   chromedriver                        0x0000000104499908 chromedriver + 530696
+8   chromedriver                        0x0000000104800db4 chromedriver + 4099508
+9   chromedriver                        0x0000000104805270 chromedriver + 4117104
+10  chromedriver                        0x000000010480b4fc chromedriver + 4142332
+11  chromedriver                        0x0000000104805d70 chromedriver + 4119920
+12  chromedriver                        0x00000001047dda44 chromedriver + 3955268
+13  chromedriver                        0x0000000104822a18 chromedriver + 4237848
+14  chromedriver                        0x0000000104822b94 chromedriver + 4238228
+15  chromedriver                        0x0000000104832a5c chromedriver + 4303452
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,10:12:43.961 ERROR {q10scraper} [main] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.149)
+Stacktrace:
+0   chromedriver                        0x00000001025b2d68 chromedriver + 4337000
+1   chromedriver                        0x00000001025aade4 chromedriver + 4304356
+2   chromedriver                        0x00000001021d7a5c chromedriver + 293468
+3   chromedriver                        0x00000001021b06c0 chromedriver + 132800
+4   chromedriver                        0x000000010224404c chromedriver + 737356
+5   chromedriver                        0x0000000102257198 chromedriver + 815512
+6   chromedriver                        0x0000000102210a5c chromedriver + 526940
+7   chromedriver                        0x0000000102211908 chromedriver + 530696
+8   chromedriver                        0x0000000102578db4 chromedriver + 4099508
+9   chromedriver                        0x000000010257d270 chromedriver + 4117104
+10  chromedriver                        0x00000001025834fc chromedriver + 4142332
+11  chromedriver                        0x000000010257dd70 chromedriver + 4119920
+12  chromedriver                        0x0000000102555a44 chromedriver + 3955268
+13  chromedriver                        0x000000010259aa18 chromedriver + 4237848
+14  chromedriver                        0x000000010259ab94 chromedriver + 4238228
+15  chromedriver                        0x00000001025aaa5c chromedriver + 4303452
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,10:31:19.707 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,10:31:25.768 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,10:31:28.785 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,10:31:32.885 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,10:31:34.346 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,10:31:47.919 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x00000001024c6d68 chromedriver + 4337000
+1   chromedriver                        0x00000001024bede4 chromedriver + 4304356
+2   chromedriver                        0x00000001020eba5c chromedriver + 293468
+3   chromedriver                        0x0000000102130d50 chromedriver + 576848
+4   chromedriver                        0x000000010216b908 chromedriver + 817416
+5   chromedriver                        0x0000000102124a5c chromedriver + 526940
+6   chromedriver                        0x0000000102125908 chromedriver + 530696
+7   chromedriver                        0x000000010248cdb4 chromedriver + 4099508
+8   chromedriver                        0x0000000102491270 chromedriver + 4117104
+9   chromedriver                        0x00000001024974fc chromedriver + 4142332
+10  chromedriver                        0x0000000102491d70 chromedriver + 4119920
+11  chromedriver                        0x0000000102469a44 chromedriver + 3955268
+12  chromedriver                        0x00000001024aea18 chromedriver + 4237848
+13  chromedriver                        0x00000001024aeb94 chromedriver + 4238228
+14  chromedriver                        0x00000001024bea5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,10:31:52.616 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,10:31:56.010 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,10:32:00.109 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,10:32:01.722 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,10:32:06.578 INFO {q10page} [logger_print] Detalles de la oportunidad registrados

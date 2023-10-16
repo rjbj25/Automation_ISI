@@ -82,3 +82,4 @@ OPTION_TECNICO_SUPERIOR_MECANICA_DE_EQUIPO_PESADO: body > div.btn-group.bootstra
 OPTION_TECNICO_SUPERIOR_TOPOGRAFIA: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(47) > a > span
 OPTION_TRIPULANTE_DE_CABINA_DE_VUELO_COMERCIAL: body > div.btn-group.bootstrap-select.pull-right.modal-select.force-val.dropup.open > div > ul > li:nth-child(48) > a > span
 BUTTON_GUARDAR: '#submit-btn'
+SELECT_ASESOR: '#divPaso3 > div > div.row.row3 > div:nth-child(3) > div > div > button'

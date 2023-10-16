@@ -36,13 +36,12 @@ class Q10Page(object):
         self._chrome_options = Options()
         self._chrome_options.add_argument("--window-size=%s" % self._WINDOW_SIZE)
         # headless
-        self._chrome_options.add_argument("--headless")
+        #self._chrome_options.add_argument("--headless")
         self._driver = webdriver.Chrome(options=self._chrome_options)
         self._driver.maximize_window()
         self._url = "https://site2.q10.com/login?ReturnUrl=%2F&aplentId=5f0cac06-a506-459a-a7b8-364b50574728"
         xpaths_path = common.config()['base_dir']/'Scripts/fill_crm/xpaths/xpaths.yml'
         self.xpaths = common.open_yaml(xpaths_path)
-        self.student = google_methods.get_data_from_sheet()
 
     def login(self):
         '''
@@ -96,164 +95,178 @@ class Q10Page(object):
         self.logger_print('Seccion de oportunidades abierta')
         sleep(2)
 
-    def register_oportunitie(self):
+    def register_oportunitie(self, student):
         '''
         Este metodo se encarga de registrar una oportunidad en el CRM
         '''
         self.click_element_by_ccs_sel(self.xpaths['BUTTON_REGISTRAR_OPORTUNIDAD'])
-        name = str(self.student['Nombre'].iloc[0].iloc[0])+' '+str(self.student['Apellido'].iloc[0].iloc[0])
+        name = str(student['Nombre'])+' '+str(student['Apellido'])
         self.send_text_by_ccs_sel(self.xpaths['TXTBOX_OPOTUNIDAD_NOMBRE'], name)
-        self.send_text_by_ccs_sel(self.xpaths['TXTBOX_IDENTIFICACION'], self.student['Cedula'].iloc[0])
-        self.send_text_by_ccs_sel(self.xpaths['TXTBOX_EMAIL'], self.student['Correo'].iloc[0])
-        self.send_text_by_ccs_sel(self.xpaths['TXTBOX_CELULAR'], self.student['Celular'].iloc[0])
+        self.send_text_by_ccs_sel(self.xpaths['TXTBOX_IDENTIFICACION'], student['Cedula'])
+        self.send_text_by_ccs_sel(self.xpaths['TXTBOX_EMAIL'], student['Correo'])
+        self.send_text_by_ccs_sel(self.xpaths['TXTBOX_CELULAR'], student['Celular'])
         print('Datos Generales de Oportunidad Registrados')
 
-    def register_oportunitie_detail(self):
+    def register_oportunitie_detail(self, student):
         '''
         Este metodo se encarga de registrar los detalles de una oportunidad en el CRM
         '''
+        print(student)
         self.click_element_by_ccs_sel(self.xpaths['BUTTON_NEXT'])
-        self.send_text_by_ccs_sel(self.xpaths['TXTBOX_DIRECCION'], self.student['Direccion'].iloc[0])
+        self.send_text_by_ccs_sel(self.xpaths['TXTBOX_DIRECCION'], student['Direccion'])
         self.click_element_by_ccs_sel(self.xpaths['SELECT_COMO_SE_ENTERO'])
 
         #Se selecciona como se entero el estudiante
-        if self.student['Como_Se_Entero'].iloc[0].iloc[0] == 'Facebook Empresarial':
+        if student['Como_Se_Entero'] == 'Facebook Empresarial':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_FB_EMPRESARIAL'])
-        elif self.student['Como_Se_Entero'].iloc[0].iloc[0] == 'Instagram':
+        elif student['Como_Se_Entero'] == 'Instagram':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_INSTAGRAM'])
-        elif self.student['Como_Se_Entero'].iloc[0].iloc[0] == 'Pagina Web':
+        elif student['Como_Se_Entero'] == 'Pagina Web':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_PAGINA_WEB'])
 
         # Se selecciona el medio de contacto con el estudiante
         self.click_element_by_ccs_sel(self.xpaths['SELECT_MEDIO_DE_CONTACTO'])
-        if self.student['Medio_De_Contacto'].iloc[0].iloc[0] == 'WhatsApp':
+        if student['Medio_De_Contacto'] == 'WhatsApp':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_WHATSAPP'])
-        elif self.student['Medio_De_Contacto'].iloc[0].iloc[0] == 'Correo Electrónico':
+        elif student['Medio_De_Contacto'] == 'Correo Electrónico':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_CORREO_ELECTRONICO'])
-        elif self.student['Medio_De_Contacto'].iloc[0].iloc[0] == 'Visita':
+        elif student['Medio_De_Contacto'] == 'Visita':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_VISITA'])
-        elif self.student['Medio_De_Contacto'].iloc[0].iloc[0] == 'Llamada':
+        elif student['Medio_De_Contacto'] == 'Llamada':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_LLAMADA'])
 
         # Se selecciona la procedencia, es decir hacia donde va el estudiante
         self.click_element_by_ccs_sel(self.xpaths['SELECT_PROCEDENCIA'])
-        if self.student['Procedencia'].iloc[0].iloc[0] == 'INSTITUTO SUPERIOR DE INGENIERIA':
+        if student['Procedencia'] == 'INSTITUTO SUPERIOR DE INGENIERIA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_ISI'])
-        elif self.student['Procedencia'].iloc[0].iloc[0] == 'GRUPO MAKRO PANAMA':
+        elif student['Procedencia'] == 'GRUPO MAKRO PANAMA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GMK_PANAMA'])
-        elif self.student['Procedencia'].iloc[0].iloc[0] == 'GRUPO MAKRO COLOMBIA':
+        elif student['Procedencia'] == 'GRUPO MAKRO COLOMBIA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GMK_COLOMBIA'])
-        elif self.student['Procedencia'].iloc[0].iloc[0] == 'GRUPO MAKRO CONVENIO':
+        elif student['Procedencia'] == 'GRUPO MAKRO CONVENIO':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GMK_CONVENIO'])
 
 
         # Se selecciona el estado del negocio
         self.click_element_by_ccs_sel(self.xpaths['SELECT_ESTADO_DEL_NEGOCIO'])
-        if self.student['Estado_Del_Negocio'].iloc[0].iloc[0] == 'Presentación':
+        if student['Estado_Del_Negocio'] == 'Presentación':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_PRESENTACION'])
-        elif self.student['Estado_Del_Negocio'].iloc[0].iloc[0] == 'En Negociación':
+        elif student['Estado_Del_Negocio'] == 'En Negociación':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_EN_NEGOCIACION'])
-        elif self.student['Estado_Del_Negocio'].iloc[0].iloc[0] == 'Cierre':
+        elif student['Estado_Del_Negocio'] == 'Cierre':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_CIERRE'])
 
+        # Se selecciona el Asesor
+        self.click_element_by_ccs_sel(self.xpaths['SELECT_ASESOR'])
+        if student['Asesor'] == ' Yalock Ditta':
+            self.click_element_by_ccs_sel(common.config()['config']['q10user']['yalock_selector'])
+        elif student['Asesor'] == 'Miriam Martínez':
+            self.click_element_by_ccs_sel(common.config()['config']['q10user']['miriam_selector'])
+        elif student['Asesor'] == 'Nathaly Nieto':
+            self.click_element_by_ccs_sel(common.config()['config']['q10user']['nathaly_selector'])
+        elif student['Asesor'] == 'Tania Gelvez':
+            self.click_element_by_ccs_sel(common.config()['config']['q10user']['tania_selector'])
+        elif student['Asesor'] == 'Cristian Angulo':
+            self.click_element_by_ccs_sel(common.config()['config']['q10user']['cristian_selector'])
+
         # Se selecciona el municipio del estudiante
-        self.select_option_by_ccs_sel(self.xpaths['SELECT_MUNICIPIO'], self.student['Municipio'].iloc[0].iloc[0])
+        self.select_option_by_ccs_sel(self.xpaths['SELECT_MUNICIPIO'], student['Municipio'])
 
         #Se selecciona la carrera del estudiante
         self.click_element_by_ccs_sel(self.xpaths['SELECT_PROGRAMA'])
-        if self.student['Programa'].iloc[0].iloc[0] == 'ASISTENTE DE INGENIERIA CIVIL Y DISEÑO DE OBRAS CIVILES':
+        if student['Programa'] == 'ASISTENTE DE INGENIERIA CIVIL Y DISEÑO DE OBRAS CIVILES':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_ASISTENTE_DE_INGENIERIA_CIVIL_Y_DISENO_DE_OBRAS_CIVILES'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'CERTIFICACIONES ESPECIALIZADAS GRUPO MAKRO':
+        elif student['Programa'] == 'CERTIFICACIONES ESPECIALIZADAS GRUPO MAKRO':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_CERTIFICACIONES_ESPECIALIZADAS_GRUPO_MAKRO'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'CURSO DE BUCEO COMERCIAL':
+        elif student['Programa'] == 'CURSO DE BUCEO COMERCIAL':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_CURSO_DE_BUCEO_COMERCIAL'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'CURSO DE FRANCES JOBS - CANADA':
+        elif student['Programa'] == 'CURSO DE FRANCES JOBS - CANADA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_CURSO_DE_FRANCES_JOBS_CANADA'])   
-        elif self.student['Programa'].iloc[0].iloc[0] == 'CURSO DE INGLES ISI':
+        elif student['Programa'] == 'CURSO DE INGLES ISI':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_CURSO_DE_INGLES_ISI'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'CURSO DE INGLES JOBS - CANADA':
+        elif student['Programa'] == 'CURSO DE INGLES JOBS - CANADA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_CURSO_DE_INGLES_JOBS_CANADA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'CURSOS ISI':
+        elif student['Programa'] == 'CURSOS ISI':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_CURSOS_ISI'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'CURSOS NIVELATORIOS ISI':
+        elif student['Programa'] == 'CURSOS NIVELATORIOS ISI':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_CURSOS_NIVELATORIOS_ISI'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'CURSOS SOBRE BUCEO ISI':
+        elif student['Programa'] == 'CURSOS SOBRE BUCEO ISI':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_CURSOS_SOBRE_BUCEO_ISI'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'DIPLOMADO EN MAQUINARIA PESADA CON ENFASIS EN MANTENIMIENTO Y PRODUCTIVIDAD.':
+        elif student['Programa'] == 'DIPLOMADO EN MAQUINARIA PESADA CON ENFASIS EN MANTENIMIENTO Y PRODUCTIVIDAD.':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_DIPLOMADO_EN_MAQUINARIA_PESADA_CON_ENFASIS_EN_MANTENIMIENTO_Y_PRODUCTIVIDAD'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'DIPLOMADO EN SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EQUIPO PESADO ZEMER':
+        elif student['Programa'] == 'DIPLOMADO EN SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EQUIPO PESADO ZEMER':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_DIPLOMADO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EQUIPO_PESADO_ZEMER'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'FLYCAMDRONE - CURSO BASICO DE DRONES.':
+        elif student['Programa'] == 'FLYCAMDRONE - CURSO BASICO DE DRONES.':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_FLYCAMDRONE_CURSO_BASICO_DE_DRONES'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'FLYCAMDRONE - CURSO PROFESIONAL DE DRONES':
+        elif student['Programa'] == 'FLYCAMDRONE - CURSO PROFESIONAL DE DRONES':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_FLYCAMDRONE_CURSO_PROFESIONAL_DE_DRONES'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO REENTRENAMIENTO EN SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE EXCAVADORA HIDRÁULICA.':
+        elif student['Programa'] == 'GRUPO MAKRO REENTRENAMIENTO EN SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE EXCAVADORA HIDRÁULICA.':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORA_HIDRAULICA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO REENTRENAMIENTO EN SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE EXCAVADORA SOBRE ORUGAS':
+        elif student['Programa'] == 'GRUPO MAKRO REENTRENAMIENTO EN SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE EXCAVADORA SOBRE ORUGAS':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORA_SOBRE_ORUGAS'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO REENTRENAMIENTO EN SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE TRACTOR SOBRE ORUGAS':
+        elif student['Programa'] == 'GRUPO MAKRO REENTRENAMIENTO EN SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE TRACTOR SOBRE ORUGAS':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_REENTRENAMIENTO_EN_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_TRACTOR_SOBRE_ORUGAS'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE CAMION RIGIDO':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE CAMION RIGIDO':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_RIGIDO'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE CAMION VOLQUETE':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE CAMION VOLQUETE':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_VOLQUETE'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE EXCAVADORAS Y PALAS.':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE EXCAVADORAS Y PALAS.':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EXCAVADORAS_Y_PALAS'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE MINICARGADOR':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE MINICARGADOR':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MINICARGADOR'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE MOTONIVELADORA':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE MOTONIVELADORA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MOTONIVELADORA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD. MANTENIMIENTO Y OPERACIÓN DE MOTOTRAILLA':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD. MANTENIMIENTO Y OPERACIÓN DE MOTOTRAILLA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_MOTOTRAILLA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE PERFORADORAS':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE PERFORADORAS':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_PERFORADORAS'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE RETROCARGADOR':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE RETROCARGADOR':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_RETROCARGADOR'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN SCOOP Y JUMBO':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN SCOOP Y JUMBO':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_SCOOP_Y_JUMBO'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN CAMIÓN ARTICULADO.':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN CAMIÓN ARTICULADO.':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CAMION_ARTICULADO'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN CAMIONETAS 4X4':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN CAMIONETAS 4X4':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CAMIONETAS_4X4'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN CARGADOR FRONTAL':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN CARGADOR FRONTAL':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_CARGADOR_FRONTAL'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN EXCAVADORA HIDRÁULICA.':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN EXCAVADORA HIDRÁULICA.':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_EXCAVADORA_HIDRAULICA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN GRUAS':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN GRUAS':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_GRUAS'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN MAQUINARIA AGRICOLA.':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN MAQUINARIA AGRICOLA.':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_MAQUINARIA_AGRICOLA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN MONTACARGAS':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN MONTACARGAS':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_MONTACARGAS'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN TRACTOR AGRICOLA.':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN TRACTOR AGRICOLA.':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_TRACTOR_AGRICOLA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN VIBROCOMPACTADOR SEGURIDAD VIAL':
+        elif student['Programa'] == 'GRUPO MAKRO SEGURIDAD, MANTENIMIENTO Y OPERACIÓN EN VIBROCOMPACTADOR SEGURIDAD VIAL':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_GRUPO_MAKRO_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_EN_VIBROCOMPACTADOR_SEGURIDAD_VIAL'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'SEGURIDAD, MANTENIMIENTO Y OPERACION DE CAMION ARTICULADO Y EXCAVADORA HIDRAULICA':
+        elif student['Programa'] == 'SEGURIDAD, MANTENIMIENTO Y OPERACION DE CAMION ARTICULADO Y EXCAVADORA HIDRAULICA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_CAMION_ARTICULADO_Y_EXCAVADORA_HIDRAULICA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE EQUIPO PESADO':
+        elif student['Programa'] == 'SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE EQUIPO PESADO':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EQUIPO_PESADO'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE EQUIPO PESADO GMK PANAMA':
+        elif student['Programa'] == 'SEGURIDAD, MANTENIMIENTO Y OPERACIÓN DE EQUIPO PESADO GMK PANAMA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_SEGURIDAD_MANTENIMIENTO_Y_OPERACION_DE_EQUIPO_PESADO_GMK_PANAMA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'SOLDADURA SUBACUÁTICA':
+        elif student['Programa'] == 'SOLDADURA SUBACUÁTICA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_SOLDADURA_SUBACUATICA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'TÉCNICO SUPERIOR ASISTENTE DE INGENIERÍA CIVIL':
+        elif student['Programa'] == 'TÉCNICO SUPERIOR ASISTENTE DE INGENIERÍA CIVIL':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TECNICO_SUPERIOR_ASISTENTE_DE_INGENIERIA_CIVIL'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'TÉCNICO SUPERIOR ASISTENTE DE ODONTOLOGÍA':
+        elif student['Programa'] == 'TÉCNICO SUPERIOR ASISTENTE DE ODONTOLOGÍA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TECNICO_SUPERIOR_ASISTENTE_DE_ODONTOLOGIA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'TÉCNICO SUPERIOR DISEÑO DE OBRAS CIVILES':
+        elif student['Programa'] == 'TÉCNICO SUPERIOR DISEÑO DE OBRAS CIVILES':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TECNICO_SUPERIOR_DISENO_DE_OBRAS_CIVILES'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'TÉCNICO SUPERIOR ELECTRICIDAD CON ÉNFASIS EN CENTRALES HIDROELÉCTRICAS':
+        elif student['Programa'] == 'TÉCNICO SUPERIOR ELECTRICIDAD CON ÉNFASIS EN CENTRALES HIDROELÉCTRICAS':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TECNICO_SUPERIOR_ELECTRICIDAD_CON_ENFASIS_EN_CENTRALES_HIDROELECTRICAS'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'TÉCNICO SUPERIOR EN MEDIO AMBIENTE Y MANEJO DE CUENCAS HIDROGRÁFICAS':
+        elif student['Programa'] == 'TÉCNICO SUPERIOR EN MEDIO AMBIENTE Y MANEJO DE CUENCAS HIDROGRÁFICAS':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TECNICO_SUPERIOR_EN_MEDIO_AMBIENTE_Y_MANEJO_DE_CUENCAS_HIDROGRAFICAS'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'TÉCNICO SUPERIOR LOGÍSTICA Y COMERCIO INTERNACIONAL':
+        elif student['Programa'] == 'TÉCNICO SUPERIOR LOGÍSTICA Y COMERCIO INTERNACIONAL':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TECNICO_SUPERIOR_LOGISTICA_Y_COMERCIO_INTERNACIONAL'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'TÉCNICO SUPERIOR MECÁNICA DE EQUIPO PESADO':
+        elif student['Programa'] == 'TÉCNICO SUPERIOR MECÁNICA DE EQUIPO PESADO':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TECNICO_SUPERIOR_MECANICA_DE_EQUIPO_PESADO'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'TÉCNICO SUPERIOR TOPOGRAFÍA':
+        elif student['Programa'] == 'TÉCNICO SUPERIOR TOPOGRAFÍA':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TECNICO_SUPERIOR_TOPOGRAFIA'])
-        elif self.student['Programa'].iloc[0].iloc[0] == 'TRIPULANTE DE CABINA DE VUELO COMERCIAL':
+        elif student['Programa'] == 'TRIPULANTE DE CABINA DE VUELO COMERCIAL':
             self.click_element_by_ccs_sel(self.xpaths['OPTION_TRIPULANTE_DE_CABINA_DE_VUELO_COMERCIAL'])
         
         self.logger_print('Detalles de la oportunidad registrados')
