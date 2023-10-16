@@ -36,7 +36,7 @@ class Q10Page(object):
         self._chrome_options = Options()
         self._chrome_options.add_argument("--window-size=%s" % self._WINDOW_SIZE)
         # headless
-        #self._chrome_options.add_argument("--headless")
+        self._chrome_options.add_argument("--headless")
         self._driver = webdriver.Chrome(options=self._chrome_options)
         self._driver.maximize_window()
         self._url = "https://site2.q10.com/login?ReturnUrl=%2F&aplentId=5f0cac06-a506-459a-a7b8-364b50574728"
