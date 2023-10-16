@@ -122,3 +122,398 @@ Stacktrace:
 2023-10-16,10:32:00.109 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
 2023-10-16,10:32:01.722 INFO {q10page} [logger_print] Seccion de oportunidades abierta
 2023-10-16,10:32:06.578 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-16,10:54:01.848 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,10:54:08.481 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,10:54:12.073 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,10:54:16.245 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,10:54:17.704 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,10:54:31.339 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x00000001010fed68 chromedriver + 4337000
+1   chromedriver                        0x00000001010f6de4 chromedriver + 4304356
+2   chromedriver                        0x0000000100d23a5c chromedriver + 293468
+3   chromedriver                        0x0000000100d68d50 chromedriver + 576848
+4   chromedriver                        0x0000000100da3908 chromedriver + 817416
+5   chromedriver                        0x0000000100d5ca5c chromedriver + 526940
+6   chromedriver                        0x0000000100d5d908 chromedriver + 530696
+7   chromedriver                        0x00000001010c4db4 chromedriver + 4099508
+8   chromedriver                        0x00000001010c9270 chromedriver + 4117104
+9   chromedriver                        0x00000001010cf4fc chromedriver + 4142332
+10  chromedriver                        0x00000001010c9d70 chromedriver + 4119920
+11  chromedriver                        0x00000001010a1a44 chromedriver + 3955268
+12  chromedriver                        0x00000001010e6a18 chromedriver + 4237848
+13  chromedriver                        0x00000001010e6b94 chromedriver + 4238228
+14  chromedriver                        0x00000001010f6a5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,10:54:35.260 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,10:54:39.557 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,10:54:43.748 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,10:54:45.287 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,10:54:54.977 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102f66d68 chromedriver + 4337000
+1   chromedriver                        0x0000000102f5ede4 chromedriver + 4304356
+2   chromedriver                        0x0000000102b8ba5c chromedriver + 293468
+3   chromedriver                        0x0000000102bd0d50 chromedriver + 576848
+4   chromedriver                        0x0000000102c0b908 chromedriver + 817416
+5   chromedriver                        0x0000000102bc4a5c chromedriver + 526940
+6   chromedriver                        0x0000000102bc5908 chromedriver + 530696
+7   chromedriver                        0x0000000102f2cdb4 chromedriver + 4099508
+8   chromedriver                        0x0000000102f31270 chromedriver + 4117104
+9   chromedriver                        0x0000000102f374fc chromedriver + 4142332
+10  chromedriver                        0x0000000102f31d70 chromedriver + 4119920
+11  chromedriver                        0x0000000102f09a44 chromedriver + 3955268
+12  chromedriver                        0x0000000102f4ea18 chromedriver + 4237848
+13  chromedriver                        0x0000000102f4eb94 chromedriver + 4238228
+14  chromedriver                        0x0000000102f5ea5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,10:54:58.989 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,10:55:02.156 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,10:55:06.280 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,10:55:07.693 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,10:55:21.440 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104da6d68 chromedriver + 4337000
+1   chromedriver                        0x0000000104d9ede4 chromedriver + 4304356
+2   chromedriver                        0x00000001049cba5c chromedriver + 293468
+3   chromedriver                        0x0000000104a10d50 chromedriver + 576848
+4   chromedriver                        0x0000000104a4b908 chromedriver + 817416
+5   chromedriver                        0x0000000104a04a5c chromedriver + 526940
+6   chromedriver                        0x0000000104a05908 chromedriver + 530696
+7   chromedriver                        0x0000000104d6cdb4 chromedriver + 4099508
+8   chromedriver                        0x0000000104d71270 chromedriver + 4117104
+9   chromedriver                        0x0000000104d774fc chromedriver + 4142332
+10  chromedriver                        0x0000000104d71d70 chromedriver + 4119920
+11  chromedriver                        0x0000000104d49a44 chromedriver + 3955268
+12  chromedriver                        0x0000000104d8ea18 chromedriver + 4237848
+13  chromedriver                        0x0000000104d8eb94 chromedriver + 4238228
+14  chromedriver                        0x0000000104d9ea5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,11:08:45.554 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,11:08:51.044 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,11:08:57.585 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,11:09:03.664 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,11:09:06.747 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,11:09:10.867 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,11:09:12.346 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,11:09:24.974 ERROR {q10scraper} [main] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.149)
+Stacktrace:
+0   chromedriver                        0x000000010275ad68 chromedriver + 4337000
+1   chromedriver                        0x0000000102752de4 chromedriver + 4304356
+2   chromedriver                        0x000000010237fa5c chromedriver + 293468
+3   chromedriver                        0x00000001023586c0 chromedriver + 132800
+4   chromedriver                        0x00000001023ec04c chromedriver + 737356
+5   chromedriver                        0x00000001023ff198 chromedriver + 815512
+6   chromedriver                        0x00000001023b8a5c chromedriver + 526940
+7   chromedriver                        0x00000001023b9908 chromedriver + 530696
+8   chromedriver                        0x0000000102720db4 chromedriver + 4099508
+9   chromedriver                        0x0000000102725270 chromedriver + 4117104
+10  chromedriver                        0x000000010272b4fc chromedriver + 4142332
+11  chromedriver                        0x0000000102725d70 chromedriver + 4119920
+12  chromedriver                        0x00000001026fda44 chromedriver + 3955268
+13  chromedriver                        0x0000000102742a18 chromedriver + 4237848
+14  chromedriver                        0x0000000102742b94 chromedriver + 4238228
+15  chromedriver                        0x0000000102752a5c chromedriver + 4303452
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,13:18:09.439 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,13:18:16.856 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:18:20.861 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:18:24.957 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:18:26.537 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:18:40.128 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104fced68 chromedriver + 4337000
+1   chromedriver                        0x0000000104fc6de4 chromedriver + 4304356
+2   chromedriver                        0x0000000104bf3a5c chromedriver + 293468
+3   chromedriver                        0x0000000104c38d50 chromedriver + 576848
+4   chromedriver                        0x0000000104c73908 chromedriver + 817416
+5   chromedriver                        0x0000000104c2ca5c chromedriver + 526940
+6   chromedriver                        0x0000000104c2d908 chromedriver + 530696
+7   chromedriver                        0x0000000104f94db4 chromedriver + 4099508
+8   chromedriver                        0x0000000104f99270 chromedriver + 4117104
+9   chromedriver                        0x0000000104f9f4fc chromedriver + 4142332
+10  chromedriver                        0x0000000104f99d70 chromedriver + 4119920
+11  chromedriver                        0x0000000104f71a44 chromedriver + 3955268
+12  chromedriver                        0x0000000104fb6a18 chromedriver + 4237848
+13  chromedriver                        0x0000000104fb6b94 chromedriver + 4238228
+14  chromedriver                        0x0000000104fc6a5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,13:18:44.564 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:18:47.967 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:18:52.070 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:19:02.303 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:19:07.647 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-16,13:19:08.702 INFO {q10page} [logger_print] Oportunidad guardada
+2023-10-16,13:19:15.885 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:19:19.079 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:19:23.174 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:19:24.446 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:19:37.504 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x00000001013e6d68 chromedriver + 4337000
+1   chromedriver                        0x00000001013dede4 chromedriver + 4304356
+2   chromedriver                        0x000000010100ba5c chromedriver + 293468
+3   chromedriver                        0x0000000101050d50 chromedriver + 576848
+4   chromedriver                        0x000000010108b908 chromedriver + 817416
+5   chromedriver                        0x0000000101044a5c chromedriver + 526940
+6   chromedriver                        0x0000000101045908 chromedriver + 530696
+7   chromedriver                        0x00000001013acdb4 chromedriver + 4099508
+8   chromedriver                        0x00000001013b1270 chromedriver + 4117104
+9   chromedriver                        0x00000001013b74fc chromedriver + 4142332
+10  chromedriver                        0x00000001013b1d70 chromedriver + 4119920
+11  chromedriver                        0x0000000101389a44 chromedriver + 3955268
+12  chromedriver                        0x00000001013cea18 chromedriver + 4237848
+13  chromedriver                        0x00000001013ceb94 chromedriver + 4238228
+14  chromedriver                        0x00000001013dea5c chromedriver + 4303452
+15  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,13:19:41.678 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:19:45.320 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:19:49.417 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:19:50.819 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:19:55.704 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-16,13:19:56.757 INFO {q10page} [logger_print] Oportunidad guardada
+2023-10-16,13:49:03.363 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,13:49:12.010 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,13:49:33.647 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,13:49:41.721 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:49:44.853 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:49:48.957 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:49:50.322 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:49:57.731 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:50:01.841 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:50:05.039 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:50:09.114 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:50:10.480 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:50:17.880 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:50:38.174 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,13:50:43.441 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:50:46.582 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:50:50.680 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:50:51.975 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:50:59.419 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:51:03.444 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:51:06.452 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:51:10.553 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:51:11.906 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:51:19.347 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:51:43.998 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,13:51:49.077 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:51:52.516 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:51:56.612 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:51:58.091 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:52:05.560 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:52:10.076 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:52:15.776 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:52:19.869 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:52:21.131 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:52:28.065 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:53:23.316 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,13:53:28.560 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:53:31.609 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:53:35.713 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:53:37.031 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:53:44.473 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:53:49.056 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:53:52.270 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:53:56.352 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:53:57.665 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:54:04.604 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:57:59.200 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,13:58:08.592 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:58:15.808 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:58:19.894 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:58:23.267 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:58:30.220 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:58:34.455 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:58:37.611 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:58:41.698 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:58:43.088 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:58:50.005 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:59:00.215 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,13:59:05.401 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:59:08.461 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:59:12.548 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:59:13.874 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:59:21.302 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:59:31.073 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,13:59:38.708 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,13:59:42.784 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,13:59:44.729 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,13:59:52.678 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,13:59:54.218 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,13:59:59.269 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:00:02.371 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:00:06.481 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:00:07.879 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:00:20.963 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:00:24.165 ERROR {q10scraper} [main] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.149)
+Stacktrace:
+0   chromedriver                        0x000000010119ad68 chromedriver + 4337000
+1   chromedriver                        0x0000000101192de4 chromedriver + 4304356
+2   chromedriver                        0x0000000100dbfa5c chromedriver + 293468
+3   chromedriver                        0x0000000100d986c0 chromedriver + 132800
+4   chromedriver                        0x0000000100e2c04c chromedriver + 737356
+5   chromedriver                        0x0000000100e3f198 chromedriver + 815512
+6   chromedriver                        0x0000000100df8a5c chromedriver + 526940
+7   chromedriver                        0x0000000100df9908 chromedriver + 530696
+8   chromedriver                        0x0000000101160db4 chromedriver + 4099508
+9   chromedriver                        0x0000000101165270 chromedriver + 4117104
+10  chromedriver                        0x000000010116b4fc chromedriver + 4142332
+11  chromedriver                        0x0000000101165d70 chromedriver + 4119920
+12  chromedriver                        0x000000010113da44 chromedriver + 3955268
+13  chromedriver                        0x0000000101182a18 chromedriver + 4237848
+14  chromedriver                        0x0000000101182b94 chromedriver + 4238228
+15  chromedriver                        0x0000000101192a5c chromedriver + 4303452
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-16,14:01:04.595 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:01:09.804 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:01:13.179 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:01:17.257 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:01:18.656 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:01:22.987 INFO {q10page} [register_oportunitie_detail] No se encontró mensaje de coincidencias
+2023-10-16,14:01:27.120 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:01:36.769 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:01:40.149 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:01:44.248 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:01:45.569 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:01:49.908 INFO {q10page} [register_oportunitie_detail] No se encontró mensaje de coincidencias
+2023-10-16,14:01:54.043 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:02:14.621 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:02:19.549 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:02:23.036 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:02:27.128 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:02:31.257 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:02:37.620 INFO {q10page} [register_oportunitie_detail] No se encontró mensaje de coincidencias
+2023-10-16,14:02:41.739 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:02:47.426 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:02:50.832 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:02:54.910 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:02:56.280 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:03:02.660 INFO {q10page} [register_oportunitie_detail] No se encontró mensaje de coincidencias
+2023-10-16,14:03:06.815 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:03:09.529 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:03:21.616 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:03:26.564 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:03:29.893 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:03:33.989 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:03:35.530 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:03:42.600 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:03:46.658 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:03:53.791 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:03:57.878 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:04:00.611 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:04:07.552 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:08:17.646 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:08:23.327 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:08:28.651 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:08:32.767 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:08:37.734 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:08:46.196 INFO {q10page} [register_oportunitie_detail] No se encontró mensaje de coincidencias
+2023-10-16,14:08:50.319 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:08:54.561 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:08:57.856 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:09:01.952 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:09:06.654 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:09:09.468 INFO {q10page} [register_oportunitie_detail] No se encontró mensaje de coincidencias
+2023-10-16,14:09:13.611 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:11:17.643 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:11:23.402 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:11:26.912 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:11:31.011 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:11:32.289 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:11:35.552 INFO {q10page} [register_oportunitie_detail] No se encontró mensaje de coincidencias
+2023-10-16,14:14:00.127 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:14:07.613 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:14:12.175 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:14:16.261 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:14:17.587 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:14:20.856 INFO {q10page} [register_oportunitie_detail] No se encontró mensaje de coincidencias
+2023-10-16,14:14:24.992 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:14:44.588 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:14:49.913 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:14:53.117 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:14:57.212 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:14:58.400 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:15:36.893 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:15:45.231 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:15:48.492 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:15:52.631 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:15:54.268 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:19:43.396 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:19:49.547 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:19:53.314 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:19:57.531 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:19:58.758 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:20:03.554 INFO {q10page} [register_oportunitie_detail] Se encontraron varias coincidencias, por favor revisar manualmente en Q10 la cédula de este estudiante q  
+2023-10-16,14:20:07.678 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:20:40.457 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:20:46.227 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:20:49.271 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:20:53.349 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:20:55.370 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:21:03.791 INFO {q10page} [register_oportunitie_detail] La oportunidad ya se encuentra registrada, revisar manualmente en Q10
+2023-10-16,14:21:07.933 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:21:12.030 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:21:15.485 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:21:19.569 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:21:20.853 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:21:29.237 INFO {q10page} [register_oportunitie_detail] La oportunidad ya se encuentra registrada, revisar manualmente en Q10
+2023-10-16,14:21:33.370 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:21:44.512 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:21:49.500 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:21:52.543 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:21:56.639 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:21:57.845 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:22:06.283 INFO {q10page} [logger_print] La oportunidad ya se encontraba registrada
+2023-10-16,14:22:10.423 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:22:14.493 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:22:20.050 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:22:24.222 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:22:25.515 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:22:33.396 INFO {q10page} [logger_print] La oportunidad ya se encontraba registrada
+2023-10-16,14:22:37.531 ERROR {q10scraper} [main] Message: 
+
