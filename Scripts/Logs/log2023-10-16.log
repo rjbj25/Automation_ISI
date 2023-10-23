@@ -517,3 +517,38 @@ Stacktrace:
 2023-10-16,14:22:33.396 INFO {q10page} [logger_print] La oportunidad ya se encontraba registrada
 2023-10-16,14:22:37.531 ERROR {q10scraper} [main] Message: 
 
+2023-10-16,14:40:45.020 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:40:54.189 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:40:59.124 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:41:03.480 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:41:05.510 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:41:13.982 INFO {q10page} [logger_print] La oportunidad ya se encontraba registrada, revisar manualmente en Q10
+2023-10-16,14:41:14.046 INFO {q10page} [logger_print] Oportunidad guardada
+2023-10-16,14:51:35.676 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:51:42.355 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:51:46.521 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:51:50.765 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:51:53.343 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:52:01.844 INFO {q10page} [logger_print] La oportunidad ya se encontraba registrada, revisar manualmente en Q10
+2023-10-16,14:52:01.908 INFO {q10page} [logger_print] Oportunidad guardada
+2023-10-16,14:56:24.217 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:56:41.023 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:56:44.575 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:56:48.782 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:56:50.615 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:56:59.112 INFO {q10page} [logger_print] La oportunidad ya se encontraba registrada, revisar manualmente en Q10
+2023-10-16,14:56:59.180 INFO {q10page} [logger_print] Oportunidad guardada
+2023-10-16,14:58:12.155 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:58:19.994 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:58:26.145 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:58:30.377 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:58:31.849 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:58:40.362 ERROR {q10scraper} [main] Message: 
+
+2023-10-16,14:58:50.706 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-16,14:58:56.918 INFO {q10page} [logger_print] Login exitoso
+2023-10-16,14:59:04.634 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-16,14:59:08.730 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-16,14:59:10.233 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-16,14:59:18.709 ERROR {q10scraper} [main] Message: 
+
