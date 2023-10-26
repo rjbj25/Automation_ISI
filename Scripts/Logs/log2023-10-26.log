@@ -1,0 +1,312 @@
+2023-10-26,14:37:16.562 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-26,14:37:30.755 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,14:37:33.874 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,14:37:38.122 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,14:37:43.485 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,14:37:52.574 ERROR {q10scraper} [main] Message: 
+
+2023-10-26,14:40:51.683 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-26,14:41:05.878 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,14:41:15.299 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,14:41:19.705 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,14:41:22.202 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,14:41:30.761 ERROR {q10scraper} [main] Message: 
+
+2023-10-26,14:41:35.519 ERROR {q10scraper} [main] Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.117)
+Stacktrace:
+0   chromedriver                        0x0000000105190510 chromedriver + 4310288
+1   chromedriver                        0x00000001051884bc chromedriver + 4277436
+2   chromedriver                        0x0000000104dbbb6c chromedriver + 293740
+3   chromedriver                        0x0000000104d94718 chromedriver + 132888
+4   chromedriver                        0x0000000104e28540 chromedriver + 738624
+5   chromedriver                        0x0000000104e3b6f0 chromedriver + 816880
+6   chromedriver                        0x0000000104df4fd0 chromedriver + 528336
+7   chromedriver                        0x0000000104df5e7c chromedriver + 532092
+8   chromedriver                        0x0000000105156834 chromedriver + 4073524
+9   chromedriver                        0x000000010515a7fc chromedriver + 4089852
+10  chromedriver                        0x000000010515ac58 chromedriver + 4090968
+11  chromedriver                        0x00000001051608f8 chromedriver + 4114680
+12  chromedriver                        0x000000010515b234 chromedriver + 4092468
+13  chromedriver                        0x0000000105135604 chromedriver + 3937796
+14  chromedriver                        0x0000000105177ee8 chromedriver + 4210408
+15  chromedriver                        0x0000000105178064 chromedriver + 4210788
+16  chromedriver                        0x0000000105188134 chromedriver + 4276532
+17  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-26,14:44:29.408 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-26,14:44:36.484 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,14:44:39.570 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,14:44:43.909 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,14:44:46.407 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,14:44:54.952 ERROR {q10scraper} [main] Message: 
+
+2023-10-26,14:45:00.122 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,14:45:28.072 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-26,14:45:34.310 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,14:45:43.231 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,14:45:47.359 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,14:45:49.264 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,14:45:52.336 ERROR {q10scraper} [main] Message: element click intercepted: Element <a class="btn btn-primary q10button modal-form create pull-right" href="/New/Oportunidades/Crear" title="Registrar oportunidad">...</a> is not clickable at point (1167, 119). Other element would receive the click: <div class="modal fade in" id="mensajeMora" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Stacktrace:
+0   chromedriver                        0x0000000101134510 chromedriver + 4310288
+1   chromedriver                        0x000000010112c4bc chromedriver + 4277436
+2   chromedriver                        0x0000000100d5fb6c chromedriver + 293740
+3   chromedriver                        0x0000000100dabcb4 chromedriver + 605364
+4   chromedriver                        0x0000000100da9d7c chromedriver + 597372
+5   chromedriver                        0x0000000100da79a4 chromedriver + 588196
+6   chromedriver                        0x0000000100da6a1c chromedriver + 584220
+7   chromedriver                        0x0000000100d9aeac chromedriver + 536236
+8   chromedriver                        0x0000000100d9a774 chromedriver + 534388
+9   chromedriver                        0x0000000100ddfe60 chromedriver + 818784
+10  chromedriver                        0x0000000100d98fd0 chromedriver + 528336
+11  chromedriver                        0x0000000100d99e7c chromedriver + 532092
+12  chromedriver                        0x00000001010fa834 chromedriver + 4073524
+13  chromedriver                        0x00000001010fe7fc chromedriver + 4089852
+14  chromedriver                        0x00000001010fec58 chromedriver + 4090968
+15  chromedriver                        0x00000001011048f8 chromedriver + 4114680
+16  chromedriver                        0x00000001010ff234 chromedriver + 4092468
+17  chromedriver                        0x00000001010d9604 chromedriver + 3937796
+18  chromedriver                        0x000000010111bee8 chromedriver + 4210408
+19  chromedriver                        0x000000010111c064 chromedriver + 4210788
+20  chromedriver                        0x000000010112c134 chromedriver + 4276532
+21  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-26,14:45:57.088 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,14:46:01.064 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,14:46:05.365 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,14:46:07.283 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,14:46:15.821 ERROR {q10scraper} [main] Message: 
+
+2023-10-26,14:57:26.242 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-26,14:57:48.555 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,14:57:52.754 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,14:57:57.056 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,14:57:58.511 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,14:58:05.179 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-26,14:58:06.270 INFO {q10page} [logger_print] Oportunidad guardada
+2023-10-26,14:58:18.906 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,14:58:22.200 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,14:58:26.485 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,14:58:28.337 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,14:58:34.461 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-26,14:58:35.548 INFO {q10page} [logger_print] Oportunidad guardada
+2023-10-26,15:00:14.616 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-26,15:00:22.445 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,15:00:26.164 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,15:00:30.487 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,15:00:31.726 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,15:00:34.796 ERROR {q10scraper} [main] Message: element click intercepted: Element <a class="btn btn-primary q10button modal-form create pull-right" href="/New/Oportunidades/Crear" title="Registrar oportunidad">...</a> is not clickable at point (1167, 119). Other element would receive the click: <div class="modal fade in" id="mensajeMora" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Stacktrace:
+0   chromedriver                        0x00000001048dc510 chromedriver + 4310288
+1   chromedriver                        0x00000001048d44bc chromedriver + 4277436
+2   chromedriver                        0x0000000104507b6c chromedriver + 293740
+3   chromedriver                        0x0000000104553cb4 chromedriver + 605364
+4   chromedriver                        0x0000000104551d7c chromedriver + 597372
+5   chromedriver                        0x000000010454f9a4 chromedriver + 588196
+6   chromedriver                        0x000000010454ea1c chromedriver + 584220
+7   chromedriver                        0x0000000104542eac chromedriver + 536236
+8   chromedriver                        0x0000000104542774 chromedriver + 534388
+9   chromedriver                        0x0000000104587e60 chromedriver + 818784
+10  chromedriver                        0x0000000104540fd0 chromedriver + 528336
+11  chromedriver                        0x0000000104541e7c chromedriver + 532092
+12  chromedriver                        0x00000001048a2834 chromedriver + 4073524
+13  chromedriver                        0x00000001048a67fc chromedriver + 4089852
+14  chromedriver                        0x00000001048a6c58 chromedriver + 4090968
+15  chromedriver                        0x00000001048ac8f8 chromedriver + 4114680
+16  chromedriver                        0x00000001048a7234 chromedriver + 4092468
+17  chromedriver                        0x0000000104881604 chromedriver + 3937796
+18  chromedriver                        0x00000001048c3ee8 chromedriver + 4210408
+19  chromedriver                        0x00000001048c4064 chromedriver + 4210788
+20  chromedriver                        0x00000001048d4134 chromedriver + 4276532
+21  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-26,15:00:39.580 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,15:00:44.471 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,15:00:48.747 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,15:00:49.819 ERROR {q10scraper} [main] Message: element click intercepted: Element <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">...</a> is not clickable at point (425, 26). Other element would receive the click: <div class="modal fade in" id="mensajeMora" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Stacktrace:
+0   chromedriver                        0x0000000104714510 chromedriver + 4310288
+1   chromedriver                        0x000000010470c4bc chromedriver + 4277436
+2   chromedriver                        0x000000010433fb6c chromedriver + 293740
+3   chromedriver                        0x000000010438bcb4 chromedriver + 605364
+4   chromedriver                        0x0000000104389d7c chromedriver + 597372
+5   chromedriver                        0x00000001043879a4 chromedriver + 588196
+6   chromedriver                        0x0000000104386a1c chromedriver + 584220
+7   chromedriver                        0x000000010437aeac chromedriver + 536236
+8   chromedriver                        0x000000010437a774 chromedriver + 534388
+9   chromedriver                        0x00000001043bfe60 chromedriver + 818784
+10  chromedriver                        0x0000000104378fd0 chromedriver + 528336
+11  chromedriver                        0x0000000104379e7c chromedriver + 532092
+12  chromedriver                        0x00000001046da834 chromedriver + 4073524
+13  chromedriver                        0x00000001046de7fc chromedriver + 4089852
+14  chromedriver                        0x00000001046dec58 chromedriver + 4090968
+15  chromedriver                        0x00000001046e48f8 chromedriver + 4114680
+16  chromedriver                        0x00000001046df234 chromedriver + 4092468
+17  chromedriver                        0x00000001046b9604 chromedriver + 3937796
+18  chromedriver                        0x00000001046fbee8 chromedriver + 4210408
+19  chromedriver                        0x00000001046fc064 chromedriver + 4210788
+20  chromedriver                        0x000000010470c134 chromedriver + 4276532
+21  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-26,15:00:54.865 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-26,15:01:01.998 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,15:01:06.863 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,15:01:11.007 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,15:01:24.270 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,15:01:30.392 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-26,15:01:31.474 INFO {q10page} [logger_print] Oportunidad guardada
+2023-10-26,15:01:38.375 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,15:01:42.408 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,15:01:46.547 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,15:01:50.690 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,15:01:53.815 ERROR {q10scraper} [main] Message: element click intercepted: Element <a class="btn btn-primary q10button modal-form create pull-right" href="/New/Oportunidades/Crear" title="Registrar oportunidad">...</a> is not clickable at point (1167, 119). Other element would receive the click: <div class="modal fade in" id="mensajeMora" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Stacktrace:
+0   chromedriver                        0x0000000102d58510 chromedriver + 4310288
+1   chromedriver                        0x0000000102d504bc chromedriver + 4277436
+2   chromedriver                        0x0000000102983b6c chromedriver + 293740
+3   chromedriver                        0x00000001029cfcb4 chromedriver + 605364
+4   chromedriver                        0x00000001029cdd7c chromedriver + 597372
+5   chromedriver                        0x00000001029cb9a4 chromedriver + 588196
+6   chromedriver                        0x00000001029caa1c chromedriver + 584220
+7   chromedriver                        0x00000001029beeac chromedriver + 536236
+8   chromedriver                        0x00000001029be774 chromedriver + 534388
+9   chromedriver                        0x0000000102a03e60 chromedriver + 818784
+10  chromedriver                        0x00000001029bcfd0 chromedriver + 528336
+11  chromedriver                        0x00000001029bde7c chromedriver + 532092
+12  chromedriver                        0x0000000102d1e834 chromedriver + 4073524
+13  chromedriver                        0x0000000102d227fc chromedriver + 4089852
+14  chromedriver                        0x0000000102d22c58 chromedriver + 4090968
+15  chromedriver                        0x0000000102d288f8 chromedriver + 4114680
+16  chromedriver                        0x0000000102d23234 chromedriver + 4092468
+17  chromedriver                        0x0000000102cfd604 chromedriver + 3937796
+18  chromedriver                        0x0000000102d3fee8 chromedriver + 4210408
+19  chromedriver                        0x0000000102d40064 chromedriver + 4210788
+20  chromedriver                        0x0000000102d50134 chromedriver + 4276532
+21  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-26,15:02:08.508 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-26,15:02:15.294 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,15:02:52.826 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,15:02:54.186 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,15:02:57.281 ERROR {q10scraper} [main] Message: element click intercepted: Element <a class="btn btn-primary q10button modal-form create pull-right" href="/New/Oportunidades/Crear" title="Registrar oportunidad">...</a> is not clickable at point (1167, 119). Other element would receive the click: <div class="modal fade in" id="mensajeMora" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Stacktrace:
+0   chromedriver                        0x000000010327c510 chromedriver + 4310288
+1   chromedriver                        0x00000001032744bc chromedriver + 4277436
+2   chromedriver                        0x0000000102ea7b6c chromedriver + 293740
+3   chromedriver                        0x0000000102ef3cb4 chromedriver + 605364
+4   chromedriver                        0x0000000102ef1d7c chromedriver + 597372
+5   chromedriver                        0x0000000102eef9a4 chromedriver + 588196
+6   chromedriver                        0x0000000102eeea1c chromedriver + 584220
+7   chromedriver                        0x0000000102ee2eac chromedriver + 536236
+8   chromedriver                        0x0000000102ee2774 chromedriver + 534388
+9   chromedriver                        0x0000000102f27e60 chromedriver + 818784
+10  chromedriver                        0x0000000102ee0fd0 chromedriver + 528336
+11  chromedriver                        0x0000000102ee1e7c chromedriver + 532092
+12  chromedriver                        0x0000000103242834 chromedriver + 4073524
+13  chromedriver                        0x00000001032467fc chromedriver + 4089852
+14  chromedriver                        0x0000000103246c58 chromedriver + 4090968
+15  chromedriver                        0x000000010324c8f8 chromedriver + 4114680
+16  chromedriver                        0x0000000103247234 chromedriver + 4092468
+17  chromedriver                        0x0000000103221604 chromedriver + 3937796
+18  chromedriver                        0x0000000103263ee8 chromedriver + 4210408
+19  chromedriver                        0x0000000103264064 chromedriver + 4210788
+20  chromedriver                        0x0000000103274134 chromedriver + 4276532
+21  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-26,15:03:03.486 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,15:03:06.581 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,15:03:10.946 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,15:03:12.027 ERROR {q10scraper} [main] Message: element click intercepted: Element <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">...</a> is not clickable at point (425, 26). Other element would receive the click: <div class="modal fade in" id="mensajeMora" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Stacktrace:
+0   chromedriver                        0x0000000104b9c510 chromedriver + 4310288
+1   chromedriver                        0x0000000104b944bc chromedriver + 4277436
+2   chromedriver                        0x00000001047c7b6c chromedriver + 293740
+3   chromedriver                        0x0000000104813cb4 chromedriver + 605364
+4   chromedriver                        0x0000000104811d7c chromedriver + 597372
+5   chromedriver                        0x000000010480f9a4 chromedriver + 588196
+6   chromedriver                        0x000000010480ea1c chromedriver + 584220
+7   chromedriver                        0x0000000104802eac chromedriver + 536236
+8   chromedriver                        0x0000000104802774 chromedriver + 534388
+9   chromedriver                        0x0000000104847e60 chromedriver + 818784
+10  chromedriver                        0x0000000104800fd0 chromedriver + 528336
+11  chromedriver                        0x0000000104801e7c chromedriver + 532092
+12  chromedriver                        0x0000000104b62834 chromedriver + 4073524
+13  chromedriver                        0x0000000104b667fc chromedriver + 4089852
+14  chromedriver                        0x0000000104b66c58 chromedriver + 4090968
+15  chromedriver                        0x0000000104b6c8f8 chromedriver + 4114680
+16  chromedriver                        0x0000000104b67234 chromedriver + 4092468
+17  chromedriver                        0x0000000104b41604 chromedriver + 3937796
+18  chromedriver                        0x0000000104b83ee8 chromedriver + 4210408
+19  chromedriver                        0x0000000104b84064 chromedriver + 4210788
+20  chromedriver                        0x0000000104b94134 chromedriver + 4276532
+21  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-26,15:03:17.928 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-26,15:03:24.592 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,15:03:29.492 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,15:03:33.773 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,15:03:35.169 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,15:03:41.310 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-26,15:03:42.388 INFO {q10page} [logger_print] Oportunidad guardada
+2023-10-26,15:03:49.340 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,15:03:56.739 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,15:04:01.008 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,15:04:02.436 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,15:04:05.513 ERROR {q10scraper} [main] Message: element click intercepted: Element <a class="btn btn-primary q10button modal-form create pull-right" href="/New/Oportunidades/Crear" title="Registrar oportunidad">...</a> is not clickable at point (1167, 119). Other element would receive the click: <div class="modal fade in" id="mensajeMora" style="display: block;">...</div>
+  (Session info: chrome=118.0.5993.117)
+Stacktrace:
+0   chromedriver                        0x0000000101330510 chromedriver + 4310288
+1   chromedriver                        0x00000001013284bc chromedriver + 4277436
+2   chromedriver                        0x0000000100f5bb6c chromedriver + 293740
+3   chromedriver                        0x0000000100fa7cb4 chromedriver + 605364
+4   chromedriver                        0x0000000100fa5d7c chromedriver + 597372
+5   chromedriver                        0x0000000100fa39a4 chromedriver + 588196
+6   chromedriver                        0x0000000100fa2a1c chromedriver + 584220
+7   chromedriver                        0x0000000100f96eac chromedriver + 536236
+8   chromedriver                        0x0000000100f96774 chromedriver + 534388
+9   chromedriver                        0x0000000100fdbe60 chromedriver + 818784
+10  chromedriver                        0x0000000100f94fd0 chromedriver + 528336
+11  chromedriver                        0x0000000100f95e7c chromedriver + 532092
+12  chromedriver                        0x00000001012f6834 chromedriver + 4073524
+13  chromedriver                        0x00000001012fa7fc chromedriver + 4089852
+14  chromedriver                        0x00000001012fac58 chromedriver + 4090968
+15  chromedriver                        0x00000001013008f8 chromedriver + 4114680
+16  chromedriver                        0x00000001012fb234 chromedriver + 4092468
+17  chromedriver                        0x00000001012d5604 chromedriver + 3937796
+18  chromedriver                        0x0000000101317ee8 chromedriver + 4210408
+19  chromedriver                        0x0000000101318064 chromedriver + 4210788
+20  chromedriver                        0x0000000101328134 chromedriver + 4276532
+21  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-26,15:04:57.042 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-26,15:05:03.231 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,15:05:39.749 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,15:05:41.593 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,15:05:46.701 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-26,15:05:53.243 INFO {q10page} [register_oportunitie_detail] No se encontró boton de guardar
+2023-10-26,15:05:53.247 INFO {q10page} [register_oportunitie_detail] Se encontraron varias coincidencias, por favor revisar manualmente en Q10 la cédula de este estudiante Alexandra Anelis SMITH GÓMEZ  3-758-844
+2023-10-26,15:05:57.451 ERROR {q10scraper} [main] Message: 
+
+2023-10-26,15:06:02.656 INFO {q10page} [logger_print] Login exitoso
+2023-10-26,15:06:06.012 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-26,15:06:10.234 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-26,15:06:12.044 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-26,15:06:17.139 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-26,15:06:21.258 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-26,15:06:22.334 INFO {q10page} [logger_print] Oportunidad guardada

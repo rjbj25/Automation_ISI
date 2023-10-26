@@ -36,7 +36,7 @@ class Q10Page(object):
         self._chrome_options = Options()
         self._chrome_options.add_argument("--window-size=%s" % self._WINDOW_SIZE)
         # headless
-        self._chrome_options.add_argument("--headless")
+        #self._chrome_options.add_argument("--headless")
         self._driver = webdriver.Chrome(options=self._chrome_options)
         self._driver.maximize_window()
         self._url = "https://site2.q10.com/login?ReturnUrl=%2F&aplentId=5f0cac06-a506-459a-a7b8-364b50574728"
@@ -99,6 +99,12 @@ class Q10Page(object):
         '''
         Este metodo se encarga de registrar una oportunidad en el CRM
         '''
+        try:
+            WebDriverWait(self._driver, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#mensajeMora > div > div > div > div:nth-child(2) > div.col-lg-9.col-md-9.col-sm-9.col-xs-9')))
+            WebDriverWait(self._driver, 40).until(EC.invisibility_of_element_located((By.CSS_SELECTOR, '#mensajeMora > div > div > div > div:nth-child(2) > div.col-lg-9.col-md-9.col-sm-9.col-xs-9')))
+        except Exception as e:
+            logger.info('No se encontró mensaje de mora en pago')
+            pass
         self.click_element_by_ccs_sel(self.xpaths['BUTTON_REGISTRAR_OPORTUNIDAD'])
         name = str(student['Nombre'])+' '+str(student['Apellido'])
         self.send_text_by_ccs_sel(self.xpaths['TXTBOX_OPOTUNIDAD_NOMBRE'], name)
@@ -112,15 +118,26 @@ class Q10Page(object):
         Este metodo se encarga de registrar los detalles de una oportunidad en el CRM
         '''
         self.click_element_by_ccs_sel(self.xpaths['BUTTON_NEXT'])
+        print('Se hizo click en siguiente')
 
         sleep(2)
-        WebDriverWait(self._driver, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, self.xpaths['BUTTON_NEXT'])))
-        popup_message_text = self._driver.find_element(By.CSS_SELECTOR, self.xpaths['BUTTON_NEXT']).text
+        # Se realiza un assset para verificar si existe el boton de guardar
+        check_save_button = False
+        try:
+            WebDriverWait(self._driver, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, self.xpaths['BUTTON_GUARDAR'])))
+            popup_message_text = self._driver.find_element(By.CSS_SELECTOR, self.xpaths['BUTTON_GUARDAR']).text
+            check_save_button = True
+            print(popup_message_text)
+        except Exception as e:
+            logger.info('No se encontró boton de guardar')
+            pass
         
-        if popup_message_text == 'Omitir y crear una nueva oportunidad':
+        
+        if not check_save_button:
             print('Se encontraron varias coincidencias, por favor revisar manualmente en Q10 la cédula de este estudiante')
             logger.info(f'Se encontraron varias coincidencias, por favor revisar manualmente en Q10 la cédula de este estudiante {student["Nombre"]} {student["Apellido"]} {student["Cedula"]}')
         else:
+            print('No se encontraron coincidencias, se procede a registrar la oportunidad')
             self.send_text_by_ccs_sel(self.xpaths['TXTBOX_DIRECCION'], student['Direccion'])
             self.click_element_by_ccs_sel(self.xpaths['SELECT_COMO_SE_ENTERO'])
 
@@ -131,7 +148,7 @@ class Q10Page(object):
                 self.click_element_by_ccs_sel(self.xpaths['OPTION_INSTAGRAM'])
             elif student['Como_Se_Entero'] == 'Pagina Web':
                 self.click_element_by_ccs_sel(self.xpaths['OPTION_PAGINA_WEB'])
-
+            print('Como se entero el estudiante registrado')
             # Se selecciona el medio de contacto con el estudiante
             self.click_element_by_ccs_sel(self.xpaths['SELECT_MEDIO_DE_CONTACTO'])
             if student['Medio_De_Contacto'] == 'WhatsApp':
@@ -142,7 +159,7 @@ class Q10Page(object):
                 self.click_element_by_ccs_sel(self.xpaths['OPTION_VISITA'])
             elif student['Medio_De_Contacto'] == 'Llamada':
                 self.click_element_by_ccs_sel(self.xpaths['OPTION_LLAMADA'])
-
+            print('Medio de contacto con el estudiante registrado')
             # Se selecciona la procedencia, es decir hacia donde va el estudiante
             self.click_element_by_ccs_sel(self.xpaths['SELECT_PROCEDENCIA'])
             if student['Procedencia'] == 'INSTITUTO SUPERIOR DE INGENIERIA':
@@ -153,7 +170,7 @@ class Q10Page(object):
                 self.click_element_by_ccs_sel(self.xpaths['OPTION_GMK_COLOMBIA'])
             elif student['Procedencia'] == 'GRUPO MAKRO CONVENIO':
                 self.click_element_by_ccs_sel(self.xpaths['OPTION_GMK_CONVENIO'])
-
+            print('Procedencia del estudiante registrado')
 
             # Se selecciona el estado del negocio
             self.click_element_by_ccs_sel(self.xpaths['SELECT_ESTADO_DEL_NEGOCIO'])
@@ -163,6 +180,7 @@ class Q10Page(object):
                 self.click_element_by_ccs_sel(self.xpaths['OPTION_EN_NEGOCIACION'])
             elif student['Estado_Del_Negocio'] == 'Cierre':
                 self.click_element_by_ccs_sel(self.xpaths['OPTION_CIERRE'])
+            print('Estado del negocio registrado')
 
             # Se selecciona el Asesor
             self.click_element_by_ccs_sel(self.xpaths['SELECT_ASESOR'])
@@ -176,10 +194,10 @@ class Q10Page(object):
                 self.click_element_by_ccs_sel(common.config()['config']['q10user']['tania_selector'])
             elif student['Asesor'] == 'Cristian Angulo':
                 self.click_element_by_ccs_sel(common.config()['config']['q10user']['cristian_selector'])
-
+            print('Asesor registrado')
             # Se selecciona el municipio del estudiante
             self.select_option_by_ccs_sel(self.xpaths['SELECT_MUNICIPIO'], student['Municipio'])
-
+            print('Municipio del estudiante registrado')
             #Se selecciona la carrera del estudiante
             self.click_element_by_ccs_sel(self.xpaths['SELECT_PROGRAMA'])
             if student['Programa'] == 'ASISTENTE DE INGENIERIA CIVIL Y DISEÑO DE OBRAS CIVILES':
@@ -278,6 +296,7 @@ class Q10Page(object):
                 self.click_element_by_ccs_sel(self.xpaths['OPTION_TRIPULANTE_DE_CABINA_DE_VUELO_COMERCIAL'])
             
             self.logger_print('Detalles de la oportunidad registrados')
+            print('Detalles de la oportunidad registrados')
             sleep(1)
 
             '''print(e)
