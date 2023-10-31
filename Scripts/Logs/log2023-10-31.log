@@ -1,0 +1,688 @@
+2023-10-31,16:10:13.967 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,16:10:20.475 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,16:10:57.356 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,16:11:06.645 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,16:11:11.730 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,16:11:21.526 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x00000001027e4510 chromedriver + 4310288
+1   chromedriver                        0x00000001027dc4bc chromedriver + 4277436
+2   chromedriver                        0x000000010240fb6c chromedriver + 293740
+3   chromedriver                        0x0000000102455040 chromedriver + 577600
+4   chromedriver                        0x000000010248fe60 chromedriver + 818784
+5   chromedriver                        0x0000000102448fd0 chromedriver + 528336
+6   chromedriver                        0x0000000102449e7c chromedriver + 532092
+7   chromedriver                        0x00000001027aa834 chromedriver + 4073524
+8   chromedriver                        0x00000001027ae7fc chromedriver + 4089852
+9   chromedriver                        0x00000001027aec58 chromedriver + 4090968
+10  chromedriver                        0x00000001027b48f8 chromedriver + 4114680
+11  chromedriver                        0x00000001027af234 chromedriver + 4092468
+12  chromedriver                        0x0000000102789604 chromedriver + 3937796
+13  chromedriver                        0x00000001027cbee8 chromedriver + 4210408
+14  chromedriver                        0x00000001027cc064 chromedriver + 4210788
+15  chromedriver                        0x00000001027dc134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-31,16:15:52.579 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,16:15:57.613 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,16:16:33.867 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,16:16:35.378 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,16:16:40.441 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,16:16:48.170 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104dd8510 chromedriver + 4310288
+1   chromedriver                        0x0000000104dd04bc chromedriver + 4277436
+2   chromedriver                        0x0000000104a03b6c chromedriver + 293740
+3   chromedriver                        0x0000000104a49040 chromedriver + 577600
+4   chromedriver                        0x0000000104a83e60 chromedriver + 818784
+5   chromedriver                        0x0000000104a3cfd0 chromedriver + 528336
+6   chromedriver                        0x0000000104a3de7c chromedriver + 532092
+7   chromedriver                        0x0000000104d9e834 chromedriver + 4073524
+8   chromedriver                        0x0000000104da27fc chromedriver + 4089852
+9   chromedriver                        0x0000000104da2c58 chromedriver + 4090968
+10  chromedriver                        0x0000000104da88f8 chromedriver + 4114680
+11  chromedriver                        0x0000000104da3234 chromedriver + 4092468
+12  chromedriver                        0x0000000104d7d604 chromedriver + 3937796
+13  chromedriver                        0x0000000104dbfee8 chromedriver + 4210408
+14  chromedriver                        0x0000000104dc0064 chromedriver + 4210788
+15  chromedriver                        0x0000000104dd0134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-31,16:17:07.289 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,16:17:12.913 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,16:17:49.319 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,16:17:50.594 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,16:17:55.664 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,16:27:07.422 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,16:27:13.354 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,16:27:49.778 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,16:27:51.510 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,16:27:56.601 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,16:28:08.938 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x00000001009a8510 chromedriver + 4310288
+1   chromedriver                        0x00000001009a04bc chromedriver + 4277436
+2   chromedriver                        0x00000001005d3b6c chromedriver + 293740
+3   chromedriver                        0x0000000100619040 chromedriver + 577600
+4   chromedriver                        0x0000000100653e60 chromedriver + 818784
+5   chromedriver                        0x000000010060cfd0 chromedriver + 528336
+6   chromedriver                        0x000000010060de7c chromedriver + 532092
+7   chromedriver                        0x000000010096e834 chromedriver + 4073524
+8   chromedriver                        0x00000001009727fc chromedriver + 4089852
+9   chromedriver                        0x0000000100972c58 chromedriver + 4090968
+10  chromedriver                        0x00000001009788f8 chromedriver + 4114680
+11  chromedriver                        0x0000000100973234 chromedriver + 4092468
+12  chromedriver                        0x000000010094d604 chromedriver + 3937796
+13  chromedriver                        0x000000010098fee8 chromedriver + 4210408
+14  chromedriver                        0x0000000100990064 chromedriver + 4210788
+15  chromedriver                        0x00000001009a0134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-31,16:28:08.940 ERROR {q10scraper} [main] Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 197, in register_oportunitie_detail
+    elif student['Asesor'] == 'Cristian Angulo':
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 327, in click_element_by_ccs_sel
+    e = self._driver.find_element(By.CSS_SELECTOR, element)
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001009a8510 chromedriver + 4310288
+1   chromedriver                        0x00000001009a04bc chromedriver + 4277436
+2   chromedriver                        0x00000001005d3b6c chromedriver + 293740
+3   chromedriver                        0x0000000100619040 chromedriver + 577600
+4   chromedriver                        0x0000000100653e60 chromedriver + 818784
+5   chromedriver                        0x000000010060cfd0 chromedriver + 528336
+6   chromedriver                        0x000000010060de7c chromedriver + 532092
+7   chromedriver                        0x000000010096e834 chromedriver + 4073524
+8   chromedriver                        0x00000001009727fc chromedriver + 4089852
+9   chromedriver                        0x0000000100972c58 chromedriver + 4090968
+10  chromedriver                        0x00000001009788f8 chromedriver + 4114680
+11  chromedriver                        0x0000000100973234 chromedriver + 4092468
+12  chromedriver                        0x000000010094d604 chromedriver + 3937796
+13  chromedriver                        0x000000010098fee8 chromedriver + 4210408
+14  chromedriver                        0x0000000100990064 chromedriver + 4210788
+15  chromedriver                        0x00000001009a0134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10scraper.py", line 24, in main
+    q10p.register_oportunitie_detail(student.iloc[i])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 201, in register_oportunitie_detail
+    pass
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 327, in click_element_by_ccs_sel
+    e = self._driver.find_element(By.CSS_SELECTOR, element)
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001009a8510 chromedriver + 4310288
+1   chromedriver                        0x00000001009a04bc chromedriver + 4277436
+2   chromedriver                        0x00000001005d3b6c chromedriver + 293740
+3   chromedriver                        0x0000000100619040 chromedriver + 577600
+4   chromedriver                        0x0000000100653e60 chromedriver + 818784
+5   chromedriver                        0x000000010060cfd0 chromedriver + 528336
+6   chromedriver                        0x000000010060de7c chromedriver + 532092
+7   chromedriver                        0x000000010096e834 chromedriver + 4073524
+8   chromedriver                        0x00000001009727fc chromedriver + 4089852
+9   chromedriver                        0x0000000100972c58 chromedriver + 4090968
+10  chromedriver                        0x00000001009788f8 chromedriver + 4114680
+11  chromedriver                        0x0000000100973234 chromedriver + 4092468
+12  chromedriver                        0x000000010094d604 chromedriver + 3937796
+13  chromedriver                        0x000000010098fee8 chromedriver + 4210408
+14  chromedriver                        0x0000000100990064 chromedriver + 4210788
+15  chromedriver                        0x00000001009a0134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+2023-10-31,16:30:59.153 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,16:31:04.038 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,16:31:40.314 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,16:31:41.696 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,16:31:46.783 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,16:31:58.597 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102d20510 chromedriver + 4310288
+1   chromedriver                        0x0000000102d184bc chromedriver + 4277436
+2   chromedriver                        0x000000010294bb6c chromedriver + 293740
+3   chromedriver                        0x0000000102991040 chromedriver + 577600
+4   chromedriver                        0x00000001029cbe60 chromedriver + 818784
+5   chromedriver                        0x0000000102984fd0 chromedriver + 528336
+6   chromedriver                        0x0000000102985e7c chromedriver + 532092
+7   chromedriver                        0x0000000102ce6834 chromedriver + 4073524
+8   chromedriver                        0x0000000102cea7fc chromedriver + 4089852
+9   chromedriver                        0x0000000102ceac58 chromedriver + 4090968
+10  chromedriver                        0x0000000102cf08f8 chromedriver + 4114680
+11  chromedriver                        0x0000000102ceb234 chromedriver + 4092468
+12  chromedriver                        0x0000000102cc5604 chromedriver + 3937796
+13  chromedriver                        0x0000000102d07ee8 chromedriver + 4210408
+14  chromedriver                        0x0000000102d08064 chromedriver + 4210788
+15  chromedriver                        0x0000000102d18134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-31,16:31:58.599 ERROR {q10scraper} [main] Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 196, in register_oportunitie_detail
+    self.click_element_by_ccs_sel(common.config()['config']['q10user']['tania_selector'])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 325, in click_element_by_ccs_sel
+    WebDriverWait(self._driver, 4).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102d20510 chromedriver + 4310288
+1   chromedriver                        0x0000000102d184bc chromedriver + 4277436
+2   chromedriver                        0x000000010294bb6c chromedriver + 293740
+3   chromedriver                        0x0000000102991040 chromedriver + 577600
+4   chromedriver                        0x00000001029cbe60 chromedriver + 818784
+5   chromedriver                        0x0000000102984fd0 chromedriver + 528336
+6   chromedriver                        0x0000000102985e7c chromedriver + 532092
+7   chromedriver                        0x0000000102ce6834 chromedriver + 4073524
+8   chromedriver                        0x0000000102cea7fc chromedriver + 4089852
+9   chromedriver                        0x0000000102ceac58 chromedriver + 4090968
+10  chromedriver                        0x0000000102cf08f8 chromedriver + 4114680
+11  chromedriver                        0x0000000102ceb234 chromedriver + 4092468
+12  chromedriver                        0x0000000102cc5604 chromedriver + 3937796
+13  chromedriver                        0x0000000102d07ee8 chromedriver + 4210408
+14  chromedriver                        0x0000000102d08064 chromedriver + 4210788
+15  chromedriver                        0x0000000102d18134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10scraper.py", line 24, in main
+    q10p.register_oportunitie_detail(student.iloc[i])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 200, in register_oportunitie_detail
+    self.click_element_by_ccs_sel(common.config()['config']['q10user']['selected'])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 325, in click_element_by_ccs_sel
+    WebDriverWait(self._driver, 4).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102d20510 chromedriver + 4310288
+1   chromedriver                        0x0000000102d184bc chromedriver + 4277436
+2   chromedriver                        0x000000010294bb6c chromedriver + 293740
+3   chromedriver                        0x0000000102991040 chromedriver + 577600
+4   chromedriver                        0x00000001029cbe60 chromedriver + 818784
+5   chromedriver                        0x0000000102984fd0 chromedriver + 528336
+6   chromedriver                        0x0000000102985e7c chromedriver + 532092
+7   chromedriver                        0x0000000102ce6834 chromedriver + 4073524
+8   chromedriver                        0x0000000102cea7fc chromedriver + 4089852
+9   chromedriver                        0x0000000102ceac58 chromedriver + 4090968
+10  chromedriver                        0x0000000102cf08f8 chromedriver + 4114680
+11  chromedriver                        0x0000000102ceb234 chromedriver + 4092468
+12  chromedriver                        0x0000000102cc5604 chromedriver + 3937796
+13  chromedriver                        0x0000000102d07ee8 chromedriver + 4210408
+14  chromedriver                        0x0000000102d08064 chromedriver + 4210788
+15  chromedriver                        0x0000000102d18134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+2023-10-31,16:49:37.235 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,16:49:43.615 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,16:50:20.021 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,16:50:21.396 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,16:50:26.468 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,16:50:41.431 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101200510 chromedriver + 4310288
+1   chromedriver                        0x00000001011f84bc chromedriver + 4277436
+2   chromedriver                        0x0000000100e2bb6c chromedriver + 293740
+3   chromedriver                        0x0000000100e71040 chromedriver + 577600
+4   chromedriver                        0x0000000100eabe60 chromedriver + 818784
+5   chromedriver                        0x0000000100e64fd0 chromedriver + 528336
+6   chromedriver                        0x0000000100e65e7c chromedriver + 532092
+7   chromedriver                        0x00000001011c6834 chromedriver + 4073524
+8   chromedriver                        0x00000001011ca7fc chromedriver + 4089852
+9   chromedriver                        0x00000001011cac58 chromedriver + 4090968
+10  chromedriver                        0x00000001011d08f8 chromedriver + 4114680
+11  chromedriver                        0x00000001011cb234 chromedriver + 4092468
+12  chromedriver                        0x00000001011a5604 chromedriver + 3937796
+13  chromedriver                        0x00000001011e7ee8 chromedriver + 4210408
+14  chromedriver                        0x00000001011e8064 chromedriver + 4210788
+15  chromedriver                        0x00000001011f8134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-31,16:50:41.437 ERROR {q10scraper} [main] Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 196, in register_oportunitie_detail
+    self.click_element_by_ccs_sel(common.config()['config']['q10user']['tania_selector'])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 325, in click_element_by_ccs_sel
+    WebDriverWait(self._driver, 4).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101200510 chromedriver + 4310288
+1   chromedriver                        0x00000001011f84bc chromedriver + 4277436
+2   chromedriver                        0x0000000100e2bb6c chromedriver + 293740
+3   chromedriver                        0x0000000100e71040 chromedriver + 577600
+4   chromedriver                        0x0000000100eabe60 chromedriver + 818784
+5   chromedriver                        0x0000000100e64fd0 chromedriver + 528336
+6   chromedriver                        0x0000000100e65e7c chromedriver + 532092
+7   chromedriver                        0x00000001011c6834 chromedriver + 4073524
+8   chromedriver                        0x00000001011ca7fc chromedriver + 4089852
+9   chromedriver                        0x00000001011cac58 chromedriver + 4090968
+10  chromedriver                        0x00000001011d08f8 chromedriver + 4114680
+11  chromedriver                        0x00000001011cb234 chromedriver + 4092468
+12  chromedriver                        0x00000001011a5604 chromedriver + 3937796
+13  chromedriver                        0x00000001011e7ee8 chromedriver + 4210408
+14  chromedriver                        0x00000001011e8064 chromedriver + 4210788
+15  chromedriver                        0x00000001011f8134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10scraper.py", line 24, in main
+    q10p.register_oportunitie_detail(student.iloc[i])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 200, in register_oportunitie_detail
+    self.click_element_by_ccs_sel(common.config()['config']['q10user']['selected'])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 325, in click_element_by_ccs_sel
+    WebDriverWait(self._driver, 4).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101200510 chromedriver + 4310288
+1   chromedriver                        0x00000001011f84bc chromedriver + 4277436
+2   chromedriver                        0x0000000100e2bb6c chromedriver + 293740
+3   chromedriver                        0x0000000100e71040 chromedriver + 577600
+4   chromedriver                        0x0000000100eabe60 chromedriver + 818784
+5   chromedriver                        0x0000000100e64fd0 chromedriver + 528336
+6   chromedriver                        0x0000000100e65e7c chromedriver + 532092
+7   chromedriver                        0x00000001011c6834 chromedriver + 4073524
+8   chromedriver                        0x00000001011ca7fc chromedriver + 4089852
+9   chromedriver                        0x00000001011cac58 chromedriver + 4090968
+10  chromedriver                        0x00000001011d08f8 chromedriver + 4114680
+11  chromedriver                        0x00000001011cb234 chromedriver + 4092468
+12  chromedriver                        0x00000001011a5604 chromedriver + 3937796
+13  chromedriver                        0x00000001011e7ee8 chromedriver + 4210408
+14  chromedriver                        0x00000001011e8064 chromedriver + 4210788
+15  chromedriver                        0x00000001011f8134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+2023-10-31,17:00:40.692 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,17:00:45.842 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,17:04:04.112 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,17:04:09.671 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,17:04:14.990 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-31,17:04:19.310 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,17:04:20.357 ERROR {q10scraper} [main] Message: element click intercepted: Element <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">...</a> is not clickable at point (425, 26). Other element would receive the click: <div class="modal fade in" id="mensajeMora" style="display: block;">...</div>
+  (Session info: headless chrome=118.0.5993.117)
+Stacktrace:
+0   chromedriver                        0x0000000100fd4510 chromedriver + 4310288
+1   chromedriver                        0x0000000100fcc4bc chromedriver + 4277436
+2   chromedriver                        0x0000000100bffb6c chromedriver + 293740
+3   chromedriver                        0x0000000100c4bcb4 chromedriver + 605364
+4   chromedriver                        0x0000000100c49d7c chromedriver + 597372
+5   chromedriver                        0x0000000100c479a4 chromedriver + 588196
+6   chromedriver                        0x0000000100c46a1c chromedriver + 584220
+7   chromedriver                        0x0000000100c3aeac chromedriver + 536236
+8   chromedriver                        0x0000000100c3a774 chromedriver + 534388
+9   chromedriver                        0x0000000100c7fe60 chromedriver + 818784
+10  chromedriver                        0x0000000100c38fd0 chromedriver + 528336
+11  chromedriver                        0x0000000100c39e7c chromedriver + 532092
+12  chromedriver                        0x0000000100f9a834 chromedriver + 4073524
+13  chromedriver                        0x0000000100f9e7fc chromedriver + 4089852
+14  chromedriver                        0x0000000100f9ec58 chromedriver + 4090968
+15  chromedriver                        0x0000000100fa48f8 chromedriver + 4114680
+16  chromedriver                        0x0000000100f9f234 chromedriver + 4092468
+17  chromedriver                        0x0000000100f79604 chromedriver + 3937796
+18  chromedriver                        0x0000000100fbbee8 chromedriver + 4210408
+19  chromedriver                        0x0000000100fbc064 chromedriver + 4210788
+20  chromedriver                        0x0000000100fcc134 chromedriver + 4276532
+21  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-31,17:04:20.361 ERROR {q10scraper} [main] Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10scraper.py", line 22, in main
+    q10p.go_to_oportunities()
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 90, in go_to_oportunities
+    self.click_element_by_ccs_sel(self.xpaths['MENU_INSTITUCIONAL'])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 327, in click_element_by_ccs_sel
+    e.click()
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 394, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">...</a> is not clickable at point (425, 26). Other element would receive the click: <div class="modal fade in" id="mensajeMora" style="display: block;">...</div>
+  (Session info: headless chrome=118.0.5993.117)
+Stacktrace:
+0   chromedriver                        0x0000000100fd4510 chromedriver + 4310288
+1   chromedriver                        0x0000000100fcc4bc chromedriver + 4277436
+2   chromedriver                        0x0000000100bffb6c chromedriver + 293740
+3   chromedriver                        0x0000000100c4bcb4 chromedriver + 605364
+4   chromedriver                        0x0000000100c49d7c chromedriver + 597372
+5   chromedriver                        0x0000000100c479a4 chromedriver + 588196
+6   chromedriver                        0x0000000100c46a1c chromedriver + 584220
+7   chromedriver                        0x0000000100c3aeac chromedriver + 536236
+8   chromedriver                        0x0000000100c3a774 chromedriver + 534388
+9   chromedriver                        0x0000000100c7fe60 chromedriver + 818784
+10  chromedriver                        0x0000000100c38fd0 chromedriver + 528336
+11  chromedriver                        0x0000000100c39e7c chromedriver + 532092
+12  chromedriver                        0x0000000100f9a834 chromedriver + 4073524
+13  chromedriver                        0x0000000100f9e7fc chromedriver + 4089852
+14  chromedriver                        0x0000000100f9ec58 chromedriver + 4090968
+15  chromedriver                        0x0000000100fa48f8 chromedriver + 4114680
+16  chromedriver                        0x0000000100f9f234 chromedriver + 4092468
+17  chromedriver                        0x0000000100f79604 chromedriver + 3937796
+18  chromedriver                        0x0000000100fbbee8 chromedriver + 4210408
+19  chromedriver                        0x0000000100fbc064 chromedriver + 4210788
+20  chromedriver                        0x0000000100fcc134 chromedriver + 4276532
+21  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+22  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+2023-10-31,17:04:27.255 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,17:04:32.599 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,17:05:10.144 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,17:05:12.217 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,17:05:17.299 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,17:05:21.467 ERROR {q10scraper} [main] 'selected'
+2023-10-31,17:05:21.471 ERROR {q10scraper} [main] Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 196, in register_oportunitie_detail
+    self.click_element_by_ccs_sel(common.config()['config']['q10user']['tania_selector_xpath'])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 325, in click_element_by_ccs_sel
+    WebDriverWait(self._driver, 4).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 86, in until
+    value = method(self._driver)
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/expected_conditions.py", line 151, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 738, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: headless chrome=118.0.5993.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c08510 chromedriver + 4310288
+1   chromedriver                        0x0000000104c004bc chromedriver + 4277436
+2   chromedriver                        0x0000000104833b6c chromedriver + 293740
+3   chromedriver                        0x0000000104838e2c chromedriver + 314924
+4   chromedriver                        0x000000010483ae48 chromedriver + 323144
+5   chromedriver                        0x000000010483af74 chromedriver + 323444
+6   chromedriver                        0x0000000104879198 chromedriver + 577944
+7   chromedriver                        0x00000001048b3e60 chromedriver + 818784
+8   chromedriver                        0x000000010486cfd0 chromedriver + 528336
+9   chromedriver                        0x000000010486de7c chromedriver + 532092
+10  chromedriver                        0x0000000104bce834 chromedriver + 4073524
+11  chromedriver                        0x0000000104bd27fc chromedriver + 4089852
+12  chromedriver                        0x0000000104bd2c58 chromedriver + 4090968
+13  chromedriver                        0x0000000104bd88f8 chromedriver + 4114680
+14  chromedriver                        0x0000000104bd3234 chromedriver + 4092468
+15  chromedriver                        0x0000000104bad604 chromedriver + 3937796
+16  chromedriver                        0x0000000104befee8 chromedriver + 4210408
+17  chromedriver                        0x0000000104bf0064 chromedriver + 4210788
+18  chromedriver                        0x0000000104c00134 chromedriver + 4276532
+19  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+20  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10scraper.py", line 24, in main
+    q10p.register_oportunitie_detail(student.iloc[i])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 200, in register_oportunitie_detail
+    self.click_element_by_ccs_sel(common.config()['config']['q10user']['selected'])
+KeyError: 'selected'
+
+2023-10-31,17:05:41.366 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,17:05:46.027 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,17:06:23.165 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,17:06:26.488 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,17:06:31.558 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,17:06:45.427 ERROR {q10scraper} [main] 'selected'
+2023-10-31,17:06:45.431 ERROR {q10scraper} [main] Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 196, in register_oportunitie_detail
+    self.click_element_by_xpath(common.config()['config']['q10user']['tania_selector_xpath'])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 330, in click_element_by_xpath
+    WebDriverWait(self._driver, 10).until(EC.visibility_of_element_located((By.XPATH, element)))
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104e08510 chromedriver + 4310288
+1   chromedriver                        0x0000000104e004bc chromedriver + 4277436
+2   chromedriver                        0x0000000104a33b6c chromedriver + 293740
+3   chromedriver                        0x0000000104a79040 chromedriver + 577600
+4   chromedriver                        0x0000000104ab3e60 chromedriver + 818784
+5   chromedriver                        0x0000000104a6cfd0 chromedriver + 528336
+6   chromedriver                        0x0000000104a6de7c chromedriver + 532092
+7   chromedriver                        0x0000000104dce834 chromedriver + 4073524
+8   chromedriver                        0x0000000104dd27fc chromedriver + 4089852
+9   chromedriver                        0x0000000104dd2c58 chromedriver + 4090968
+10  chromedriver                        0x0000000104dd88f8 chromedriver + 4114680
+11  chromedriver                        0x0000000104dd3234 chromedriver + 4092468
+12  chromedriver                        0x0000000104dad604 chromedriver + 3937796
+13  chromedriver                        0x0000000104defee8 chromedriver + 4210408
+14  chromedriver                        0x0000000104df0064 chromedriver + 4210788
+15  chromedriver                        0x0000000104e00134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10scraper.py", line 24, in main
+    q10p.register_oportunitie_detail(student.iloc[i])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 200, in register_oportunitie_detail
+    self.click_element_by_ccs_sel(common.config()['config']['q10user']['selected'])
+KeyError: 'selected'
+
+2023-10-31,17:07:24.228 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,17:07:32.097 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,17:08:08.799 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,17:08:11.184 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,17:08:16.264 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,17:08:30.188 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x000000010246c510 chromedriver + 4310288
+1   chromedriver                        0x00000001024644bc chromedriver + 4277436
+2   chromedriver                        0x0000000102097b6c chromedriver + 293740
+3   chromedriver                        0x00000001020dd040 chromedriver + 577600
+4   chromedriver                        0x0000000102117e60 chromedriver + 818784
+5   chromedriver                        0x00000001020d0fd0 chromedriver + 528336
+6   chromedriver                        0x00000001020d1e7c chromedriver + 532092
+7   chromedriver                        0x0000000102432834 chromedriver + 4073524
+8   chromedriver                        0x00000001024367fc chromedriver + 4089852
+9   chromedriver                        0x0000000102436c58 chromedriver + 4090968
+10  chromedriver                        0x000000010243c8f8 chromedriver + 4114680
+11  chromedriver                        0x0000000102437234 chromedriver + 4092468
+12  chromedriver                        0x0000000102411604 chromedriver + 3937796
+13  chromedriver                        0x0000000102453ee8 chromedriver + 4210408
+14  chromedriver                        0x0000000102454064 chromedriver + 4210788
+15  chromedriver                        0x0000000102464134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-31,17:08:30.193 ERROR {q10scraper} [main] Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10scraper.py", line 24, in main
+    q10p.register_oportunitie_detail(student.iloc[i])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 195, in register_oportunitie_detail
+    self.click_element_by_xpath(common.config()['config']['q10user']['tania_selector_xpath'])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 327, in click_element_by_xpath
+    WebDriverWait(self._driver, 10).until(EC.presence_of_element_located((By.XPATH, element)))
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010246c510 chromedriver + 4310288
+1   chromedriver                        0x00000001024644bc chromedriver + 4277436
+2   chromedriver                        0x0000000102097b6c chromedriver + 293740
+3   chromedriver                        0x00000001020dd040 chromedriver + 577600
+4   chromedriver                        0x0000000102117e60 chromedriver + 818784
+5   chromedriver                        0x00000001020d0fd0 chromedriver + 528336
+6   chromedriver                        0x00000001020d1e7c chromedriver + 532092
+7   chromedriver                        0x0000000102432834 chromedriver + 4073524
+8   chromedriver                        0x00000001024367fc chromedriver + 4089852
+9   chromedriver                        0x0000000102436c58 chromedriver + 4090968
+10  chromedriver                        0x000000010243c8f8 chromedriver + 4114680
+11  chromedriver                        0x0000000102437234 chromedriver + 4092468
+12  chromedriver                        0x0000000102411604 chromedriver + 3937796
+13  chromedriver                        0x0000000102453ee8 chromedriver + 4210408
+14  chromedriver                        0x0000000102454064 chromedriver + 4210788
+15  chromedriver                        0x0000000102464134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+2023-10-31,17:10:20.519 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,17:10:26.449 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,17:11:03.067 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,17:11:04.947 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,17:11:10.062 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,17:11:24.156 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104500510 chromedriver + 4310288
+1   chromedriver                        0x00000001044f84bc chromedriver + 4277436
+2   chromedriver                        0x000000010412bb6c chromedriver + 293740
+3   chromedriver                        0x0000000104171040 chromedriver + 577600
+4   chromedriver                        0x00000001041abe60 chromedriver + 818784
+5   chromedriver                        0x0000000104164fd0 chromedriver + 528336
+6   chromedriver                        0x0000000104165e7c chromedriver + 532092
+7   chromedriver                        0x00000001044c6834 chromedriver + 4073524
+8   chromedriver                        0x00000001044ca7fc chromedriver + 4089852
+9   chromedriver                        0x00000001044cac58 chromedriver + 4090968
+10  chromedriver                        0x00000001044d08f8 chromedriver + 4114680
+11  chromedriver                        0x00000001044cb234 chromedriver + 4092468
+12  chromedriver                        0x00000001044a5604 chromedriver + 3937796
+13  chromedriver                        0x00000001044e7ee8 chromedriver + 4210408
+14  chromedriver                        0x00000001044e8064 chromedriver + 4210788
+15  chromedriver                        0x00000001044f8134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-31,17:11:24.183 ERROR {q10scraper} [main] Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10scraper.py", line 24, in main
+    q10p.register_oportunitie_detail(student.iloc[i])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 196, in register_oportunitie_detail
+    self.click_element_by_xpath(common.config()['config']['q10user']['tania_selector_xpath'])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 328, in click_element_by_xpath
+    WebDriverWait(self._driver, 10).until(EC.presence_of_element_located((By.XPATH, element)))
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104500510 chromedriver + 4310288
+1   chromedriver                        0x00000001044f84bc chromedriver + 4277436
+2   chromedriver                        0x000000010412bb6c chromedriver + 293740
+3   chromedriver                        0x0000000104171040 chromedriver + 577600
+4   chromedriver                        0x00000001041abe60 chromedriver + 818784
+5   chromedriver                        0x0000000104164fd0 chromedriver + 528336
+6   chromedriver                        0x0000000104165e7c chromedriver + 532092
+7   chromedriver                        0x00000001044c6834 chromedriver + 4073524
+8   chromedriver                        0x00000001044ca7fc chromedriver + 4089852
+9   chromedriver                        0x00000001044cac58 chromedriver + 4090968
+10  chromedriver                        0x00000001044d08f8 chromedriver + 4114680
+11  chromedriver                        0x00000001044cb234 chromedriver + 4092468
+12  chromedriver                        0x00000001044a5604 chromedriver + 3937796
+13  chromedriver                        0x00000001044e7ee8 chromedriver + 4210408
+14  chromedriver                        0x00000001044e8064 chromedriver + 4210788
+15  chromedriver                        0x00000001044f8134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+2023-10-31,17:13:14.180 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,17:13:20.380 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,17:13:56.548 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,17:13:57.895 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,17:14:02.983 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,17:14:08.478 INFO {q10page} [logger_print] Detalles de la oportunidad registrados
+2023-10-31,17:14:09.546 INFO {q10page} [logger_print] Oportunidad guardada
+2023-10-31,17:34:11.058 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,17:34:20.387 INFO {q10page} [login] No se encontró mensaje de administrativos
+2023-10-31,17:34:20.389 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,17:34:23.459 INFO {q10page} [go_to_oportunities] No se encontró mensaje de mora en pago
+2023-10-31,17:34:27.560 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,17:34:31.670 ERROR {q10scraper} [main] Message: 
+Stacktrace:
+0   chromedriver                        0x000000010517c510 chromedriver + 4310288
+1   chromedriver                        0x00000001051744bc chromedriver + 4277436
+2   chromedriver                        0x0000000104da7b6c chromedriver + 293740
+3   chromedriver                        0x0000000104ded040 chromedriver + 577600
+4   chromedriver                        0x0000000104e27e60 chromedriver + 818784
+5   chromedriver                        0x0000000104de0fd0 chromedriver + 528336
+6   chromedriver                        0x0000000104de1e7c chromedriver + 532092
+7   chromedriver                        0x0000000105142834 chromedriver + 4073524
+8   chromedriver                        0x00000001051467fc chromedriver + 4089852
+9   chromedriver                        0x0000000105146c58 chromedriver + 4090968
+10  chromedriver                        0x000000010514c8f8 chromedriver + 4114680
+11  chromedriver                        0x0000000105147234 chromedriver + 4092468
+12  chromedriver                        0x0000000105121604 chromedriver + 3937796
+13  chromedriver                        0x0000000105163ee8 chromedriver + 4210408
+14  chromedriver                        0x0000000105164064 chromedriver + 4210788
+15  chromedriver                        0x0000000105174134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+2023-10-31,17:34:31.673 ERROR {q10scraper} [main] Traceback (most recent call last):
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10scraper.py", line 22, in main
+    q10p.go_to_oportunities()
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 89, in go_to_oportunities
+    self.click_element_by_ccs_sel(self.xpaths['MENU_INSTITUCIONAL'])
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/Scripts/fill_crm/q10page.py", line 321, in click_element_by_ccs_sel
+    WebDriverWait(self._driver, 4).until(EC.visibility_of_element_located((By.CSS_SELECTOR, element)))
+  File "/Users/ramirobamaceda/Documents/GitHub/Automation_ISI/.env/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010517c510 chromedriver + 4310288
+1   chromedriver                        0x00000001051744bc chromedriver + 4277436
+2   chromedriver                        0x0000000104da7b6c chromedriver + 293740
+3   chromedriver                        0x0000000104ded040 chromedriver + 577600
+4   chromedriver                        0x0000000104e27e60 chromedriver + 818784
+5   chromedriver                        0x0000000104de0fd0 chromedriver + 528336
+6   chromedriver                        0x0000000104de1e7c chromedriver + 532092
+7   chromedriver                        0x0000000105142834 chromedriver + 4073524
+8   chromedriver                        0x00000001051467fc chromedriver + 4089852
+9   chromedriver                        0x0000000105146c58 chromedriver + 4090968
+10  chromedriver                        0x000000010514c8f8 chromedriver + 4114680
+11  chromedriver                        0x0000000105147234 chromedriver + 4092468
+12  chromedriver                        0x0000000105121604 chromedriver + 3937796
+13  chromedriver                        0x0000000105163ee8 chromedriver + 4210408
+14  chromedriver                        0x0000000105164064 chromedriver + 4210788
+15  chromedriver                        0x0000000105174134 chromedriver + 4276532
+16  libsystem_pthread.dylib             0x000000018d8f3034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018d8ede3c thread_start + 8
+
+
+2023-10-31,17:34:56.008 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,17:35:01.119 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,17:35:37.873 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,17:35:39.740 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,17:35:44.821 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,17:35:51.179 INFO {q10page} [register_oportunitie_detail] No se encontró boton de guardar
+2023-10-31,17:35:51.181 INFO {q10page} [register_oportunitie_detail] Se encontraron varias coincidencias, por favor revisar manualmente en Q10 la cédula de este estudiante Usuario De Prueba PRUEBA58324234
+2023-10-31,17:36:51.693 INFO {__init__} [autodetect] file_cache is only supported with oauth2client<4.0.0
+2023-10-31,17:36:56.241 INFO {q10page} [logger_print] Login exitoso
+2023-10-31,17:37:33.003 INFO {q10page} [go_to_oportunities] No se encontró mensaje de espacio insuficiente
+2023-10-31,17:37:35.112 INFO {q10page} [logger_print] Seccion de oportunidades abierta
+2023-10-31,17:37:40.199 INFO {q10page} [register_oportunitie] No se encontró mensaje de mora en pago
+2023-10-31,17:37:44.007 INFO {q10page} [logger_print] Detalles de la oportunidad registrados

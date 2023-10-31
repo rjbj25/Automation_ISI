@@ -296,7 +296,6 @@ class Q10Page(object):
                 self.click_element_by_ccs_sel(self.xpaths['OPTION_TRIPULANTE_DE_CABINA_DE_VUELO_COMERCIAL'])
             
             self.logger_print('Detalles de la oportunidad registrados')
-            print('Detalles de la oportunidad registrados')
             sleep(1)
 
             '''print(e)
@@ -323,7 +322,7 @@ class Q10Page(object):
         e.click()
 
     def click_element_by_xpath(self, element):
-        WebDriverWait(self._driver, 10).until(EC.visibility_of_element_located((By.XPATH, element)))
+        WebDriverWait(self._driver, 10).until(EC.presence_of_element_located((By.XPATH, element)))
         e = self._driver.find_element(By.XPATH, element)
         e.click()
 

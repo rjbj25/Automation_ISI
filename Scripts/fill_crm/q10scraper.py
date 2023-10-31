@@ -6,6 +6,7 @@ from Scripts import common
 logger = common.config()['logger']
 from Scripts.local_google import google_methods
 from time import sleep
+import traceback
 
 from Scripts.fill_crm.q10page import Q10Page
 
@@ -25,7 +26,9 @@ def main():
                     q10p._driver.quit()
                 except Exception as e:
                     logger.error(e)
-                    print(e)
+                    logger.error(traceback.format_exc())
+                    print(traceback.format_exc())
+                    sleep(50)
                     q10p._driver.quit()
         
 if __name__ == '__main__':
